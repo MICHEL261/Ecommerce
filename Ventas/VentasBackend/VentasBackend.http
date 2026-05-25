@@ -1,0 +1,6 @@
+@VentasBackend_HostAddress = http://localhost:5186
+
+GET {{VentasBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

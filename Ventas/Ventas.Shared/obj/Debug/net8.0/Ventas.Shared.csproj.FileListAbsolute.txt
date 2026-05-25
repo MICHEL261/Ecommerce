@@ -1,0 +1,11 @@
+C:\Users\PC\Desktop\Ecommerce\Ventas\Ventas.Shared\bin\Debug\net8.0\Ventas.Shared.deps.json
+C:\Users\PC\Desktop\Ecommerce\Ventas\Ventas.Shared\bin\Debug\net8.0\Ventas.Shared.dll
+C:\Users\PC\Desktop\Ecommerce\Ventas\Ventas.Shared\bin\Debug\net8.0\Ventas.Shared.pdb
+C:\Users\PC\Desktop\Ecommerce\Ventas\Ventas.Shared\obj\Debug\net8.0\Ventas.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\Ecommerce\Ventas\Ventas.Shared\obj\Debug\net8.0\Ventas.Shared.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\Ecommerce\Ventas\Ventas.Shared\obj\Debug\net8.0\Ventas.Shared.AssemblyInfo.cs
+C:\Users\PC\Desktop\Ecommerce\Ventas\Ventas.Shared\obj\Debug\net8.0\Ventas.Shared.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Ecommerce\Ventas\Ventas.Shared\obj\Debug\net8.0\Ventas.Shared.dll
+C:\Users\PC\Desktop\Ecommerce\Ventas\Ventas.Shared\obj\Debug\net8.0\refint\Ventas.Shared.dll
+C:\Users\PC\Desktop\Ecommerce\Ventas\Ventas.Shared\obj\Debug\net8.0\Ventas.Shared.pdb
+C:\Users\PC\Desktop\Ecommerce\Ventas\Ventas.Shared\obj\Debug\net8.0\ref\Ventas.Shared.dll
