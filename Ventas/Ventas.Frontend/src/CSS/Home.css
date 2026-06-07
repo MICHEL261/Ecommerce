@@ -1,20 +1,87 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 20px;
     width: 100%;
-    height: 80px;
+    height: 70px;
     padding: 0 20px;
-    background-color: white;
+    background-color: #432918;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+}
+    .navbar button:hover {
+        background-color: #e9d8c8;
+        color: #432918;
+        border-radius: 5px;
+    }
+.seccion {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    background-color: #e9d8c8;
+}
+.btn-principal {
+    background: #432918;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: .3s;
 }
 
-    .navbar button {
-        padding: 10px;
-        border: none;
-        cursor: pointer;
-        justify-content: center; 
-        align-items: center;
+    .btn-principal:hover {
+        background: #6d4429;
     }
+.texto-banner h1 {
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+
+.texto-banner p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+
+.banner-img {
+    width: 400px;
+    height: auto;
+    display: block;
+    filter: drop-shadow(0px 10px 20px rgba(0,0,0,.15));
+}
+
+
+    
+.input {
+    width: 700px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
 .container {
     width: 100%;
     height: 100vh;
@@ -24,4 +91,66 @@
 .logo {
     height: 70px;
     width: auto;
+}
+.tiendas-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.tienda-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+}
+    .tienda-card:hover {
+        border: 2px solid #000000;
+        transform: scale(1.05);
+    }
+.tienda-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+h1, h2 {
+    text-align: center;
+}
+.texto-banner {
+    animation: aparecerDerecha 1s ease-out;
+}
+.logo {
+    height: 70px;
+    width: auto;
+    animation: flotar 3s ease-in-out infinite;
+}
+
+@keyframes flotar {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes aparecerDerecha {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }

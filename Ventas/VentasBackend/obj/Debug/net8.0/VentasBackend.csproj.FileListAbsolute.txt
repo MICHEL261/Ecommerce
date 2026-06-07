@@ -137,3 +137,4 @@ C:\Users\PC\Desktop\Ecommerce\Ventas\VentasBackend\obj\Debug\net8.0\refint\Venta
 C:\Users\PC\Desktop\Ecommerce\Ventas\VentasBackend\obj\Debug\net8.0\VentasBackend.pdb
 C:\Users\PC\Desktop\Ecommerce\Ventas\VentasBackend\obj\Debug\net8.0\VentasBackend.genruntimeconfig.cache
 C:\Users\PC\Desktop\Ecommerce\Ventas\VentasBackend\obj\Debug\net8.0\ref\VentasBackend.dll
+C:\Users\PC\Desktop\Ecommerce\Ventas\VentasBackend\obj\Debug\net8.0\VentasBackend.sourcelink.json

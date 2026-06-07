@@ -23,4 +23,9 @@ public class Tienda
     [MaxLength(100, ErrorMessage = "El campo {0} no puede tener más de {1} caracteres.")]
     public string Direccion { get; set; }
     public string Imagen { get; set; }
+    public ICollection<Producto>? Productos { get; set; }//uno
+
+    public int CategoriaId { get; set; }//muchos
+
+    public Categoria? Categorias { get; set; } //muchos
 }

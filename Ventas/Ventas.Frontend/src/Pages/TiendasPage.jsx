@@ -1,36 +1,57 @@
-import { Link } from "react-router-dom";
-import "../CSS/Home.css";
-import logo from "../assets/Logo.png";
+import { Link, useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
 
-function HomePage() {
+import "../CSS/Home.css";
+import { getTiendas } from "../services/tiendasApi";
+import HomePageComponent from "../components/HomePageComponent";
+
+function TiendasPage() {
+    const { id } = useParams();
+    const [tiendas, setTiendas] = useState([]);
+
+    useEffect(() => {
+        const cargarTiendas = async () => {
+            try {
+                const data = await getTiendas();
+                setTiendas(data);
+            } catch (error) {
+                console.error("Error cargando tiendas:", error);
+            }
+        };
+
+        cargarTiendas();
+    }, []);
 
     return (
-        <div className="container">
+        <>
+            <HomePageComponent />
 
-            <nav className="navbar">
+            <div>
+                <h1>Tienda {id}</h1>
+            </div>
 
-                <img src={logo} alt="logo" className="logo" />
+            <h2>Tiendas disponibles</h2>
 
-                <Link to="/clientes">
-                    <button>Ir a Clientes</button>
-                </Link>
-
-                <Link to="/productos">
-                    <button>Ir a Productos</button>
-                </Link>
-
-                <Link to="/Tiendas">
-                    <button>Ir a Tiendas</button>
-                </Link>
-                <input type="text" placeholder="Buscar..." />
-
-            </nav>
-
-            <h1>Inicio</h1>
-            <h1>Bienvenido</h1>
-
-        </div>
+            <div className="tiendas-grid">
+                {tiendas.map((tienda) => (
+                    <Link
+                        key={tienda.id}
+                        to={`/tienda/${tienda.id}`}
+                        className="tienda-link"
+                    >
+                        <div className="tienda-card">
+                            <img
+                                src={tienda.imagen}
+                                alt={tienda.nombre}
+                                className="tienda-img"
+                            />
+                            <p>{tienda.nombre}</p>
+                        </div>
+                    </Link>
+                ))}
+            </div>
+        </>
     );
 }
 
-export default HomePage;
+export default TiendasPage;

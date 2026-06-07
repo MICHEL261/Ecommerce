@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics.Metrics;
 using Ventas.Shared.Entidades;
+using VentasBackend.UnitOfWork.Implementation;
 using VentasBackend.UnitOfWork.Interfaces;
 
 namespace VentasBackend.Controllers;
@@ -9,8 +10,34 @@ namespace VentasBackend.Controllers;
 [Route("api/[controller]")]
 public class ClientesController : GenericController<Cliente>
 {
-    public ClientesController(IGenericUnitOfWork<Cliente> unit) : base(unit)
+
+    private readonly IClientesUnitOfWork _clientesUnitOfWork;
+
+    public ClientesController(IGenericUnitOfWork<Cliente> unit, IClientesUnitOfWork cclientesUnitOfWork) : base(unit)
     {
+        _clientesUnitOfWork = cclientesUnitOfWork;
+    }
+
+    [HttpGet]
+    public override async Task<IActionResult> GetAsync()
+    {
+        var response = await _clientesUnitOfWork.GetAsync();
+        if (response.WasSuccess)
+        {
+            return Ok(response.Result);
+        }
+        return BadRequest();
+    }
+
+    [HttpGet("{id}")]
+    public override async Task<IActionResult> GetAsync(int id)
+    {
+        var response = await _clientesUnitOfWork.GetAsync(id);
+        if (response.WasSuccess)
+        {
+            return Ok(response.Result);
+        }
+        return NotFound(response.Message);
     }
 }
 
