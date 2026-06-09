@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ClientesPage from "./pages/ClientesPage";
 import TiendasPage from "./pages/TiendasPage";
+import LoginPage from "./pages/LoginPage";
 
 import DetalleTiendaPage from "./pages/DetalleTiendaPage";
 
@@ -20,6 +21,7 @@ function App() {
                 <Route path="/tiendas" element={<TiendasPage />} />
 
                 <Route path="/tienda/:id" element={<DetalleTiendaPage />} />
+                <Route path="/login" element={<LoginPage />} />
 
             </Routes>
 

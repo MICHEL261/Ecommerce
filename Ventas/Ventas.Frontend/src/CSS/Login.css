@@ -1,0 +1,97 @@
+.container1 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+.form-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .form-container form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 300px;
+    }
+
+    .form-container input {
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+
+    .form-container button {
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+.login-container {
+    background: white;
+}
+
+.register-container {
+    background: #f5f5f5;
+}
+
+/* PANEL MORADO */
+
+.overlay-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    transition: left 0.6s ease;
+    z-index: 10;
+}
+
+    .overlay-container.mover {
+        left: 50%;
+    }
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( 270deg, #432918, #6b4423, #8b5a2b, #432918 );
+    background-size: 600% 600%;
+    animation: fondoAnimado 8s ease infinite;
+}
+
+@keyframes fondoAnimado {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.overlay-panel {
+    text-align: center;
+    color: white;
+}
+
+    .overlay-panel button {
+        margin-top: 20px;
+        padding: 12px 24px;
+        background: white;
+        color: purple;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+    }
