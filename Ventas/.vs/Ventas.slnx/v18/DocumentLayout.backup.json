@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.frontend\\src\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.frontend\\src\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.frontend\\src\\pages\\loginpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\pages\\loginpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\pages\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -15,16 +23,16 @@
       "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\components\\homepagecomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\pages\\detalletiendapage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\pages\\detalletiendapage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\pages\\tiendaspage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\pages\\tiendaspage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\pages\\detalletiendapage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\pages\\detalletiendapage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -138,31 +146,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TiendasPage.jsx",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\TiendasPage.jsx",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Pages\\TiendasPage.jsx",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\TiendasPage.jsx",
-              "RelativeToolTip": "Ventas.Frontend\\src\\Pages\\TiendasPage.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-06-07T20:08:52.568Z"
+              "DocumentIndex": 0,
+              "Title": "Login.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\CSS\\Login.css",
+              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\CSS\\Login.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\CSS\\Login.css",
+              "RelativeToolTip": "Ventas.Frontend\\src\\CSS\\Login.css",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-08T23:45:07.147Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HomePageComponent.jsx",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Components\\HomePageComponent.jsx",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Components\\HomePageComponent.jsx",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Components\\HomePageComponent.jsx",
-              "RelativeToolTip": "Ventas.Frontend\\src\\Components\\HomePageComponent.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Title": "LoginPage.jsx",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\LoginPage.jsx",
+              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Pages\\LoginPage.jsx",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\LoginPage.jsx",
+              "RelativeToolTip": "Ventas.Frontend\\src\\Pages\\LoginPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-06-07T20:04:04.469Z",
+              "WhenOpened": "2026-06-08T23:36:09.567Z",
               "EditorCaption": ""
             },
             {
@@ -175,11 +184,64 @@
               "RelativeToolTip": "Ventas.Frontend\\src\\Pages\\DetalleTiendaPage.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-06-07T18:47:34.305Z"
+              "WhenOpened": "2026-06-07T18:47:34.305Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "HomePage.jsx",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\HomePage.jsx",
+              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Pages\\HomePage.jsx",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\HomePage.jsx",
+              "RelativeToolTip": "Ventas.Frontend\\src\\Pages\\HomePage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-05-25T02:23:49.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\App.jsx",
+              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\App.jsx",
+              "RelativeToolTip": "Ventas.Frontend\\src\\App.jsx",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-05-25T18:20:25.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\CSS\\Home.css",
+              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\CSS\\Home.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\CSS\\Home.css",
+              "RelativeToolTip": "Ventas.Frontend\\src\\CSS\\Home.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-25T02:39:28.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomePageComponent.jsx",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Components\\HomePageComponent.jsx",
+              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Components\\HomePageComponent.jsx",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Components\\HomePageComponent.jsx",
+              "RelativeToolTip": "Ventas.Frontend\\src\\Components\\HomePageComponent.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-07T20:04:04.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ClientesController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Controllers\\ClientesController.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Controllers\\ClientesController.cs",
@@ -191,46 +253,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomePage.jsx",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\HomePage.jsx",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Pages\\HomePage.jsx",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\HomePage.jsx",
-              "RelativeToolTip": "Ventas.Frontend\\src\\Pages\\HomePage.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "TiendasPage.jsx",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\TiendasPage.jsx",
+              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Pages\\TiendasPage.jsx",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\TiendasPage.jsx",
+              "RelativeToolTip": "Ventas.Frontend\\src\\Pages\\TiendasPage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-05-25T02:23:49.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-07T20:08:52.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\App.jsx",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\App.jsx",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\App.jsx",
-              "RelativeToolTip": "Ventas.Frontend\\src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-05-25T18:20:25.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Home.css",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\CSS\\Home.css",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\CSS\\Home.css",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\CSS\\Home.css",
-              "RelativeToolTip": "Ventas.Frontend\\src\\CSS\\Home.css",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFQAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-25T02:39:28.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CategoriasController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Controllers\\CategoriasController.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Controllers\\CategoriasController.cs",
@@ -242,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Program.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Program.cs",
@@ -254,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "App.css",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\App.css",
               "RelativeDocumentMoniker": "Ventas.Frontend\\src\\App.css",
@@ -266,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CategoriasUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\UnitOfWork\\Implementation\\CategoriasUnitOfWork.cs",
               "RelativeDocumentMoniker": "VentasBackend\\UnitOfWork\\Implementation\\CategoriasUnitOfWork.cs",
@@ -278,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ClientesRepository.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Implementation\\ClientesRepository.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Repositories\\Implementation\\ClientesRepository.cs",
@@ -290,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "ClientesUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\UnitOfWork\\Implementation\\ClientesUnitOfWork.cs",
               "RelativeDocumentMoniker": "VentasBackend\\UnitOfWork\\Implementation\\ClientesUnitOfWork.cs",
@@ -302,7 +337,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "IClientesUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\UnitOfWork\\Interfaces\\IClientesUnitOfWork.cs",
               "RelativeDocumentMoniker": "VentasBackend\\UnitOfWork\\Interfaces\\IClientesUnitOfWork.cs",
@@ -314,7 +349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "IClientesRepository.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Interfaces\\IClientesRepository.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Repositories\\Interfaces\\IClientesRepository.cs",
@@ -326,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Cliente.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Cliente.cs",
               "RelativeDocumentMoniker": "Ventas.Shared\\Entidades\\Cliente.cs",
@@ -338,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "SeedDb.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Data\\SeedDb.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Data\\SeedDb.cs",
@@ -350,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "CategoriasRepository.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Implementation\\CategoriasRepository.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Repositories\\Implementation\\CategoriasRepository.cs",
@@ -362,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Data\\DataContext.cs",
@@ -374,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "20260526212223_aa.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Migrations\\20260526212223_aa.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Migrations\\20260526212223_aa.cs",
@@ -386,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Categoria.cs",
               "RelativeDocumentMoniker": "Ventas.Shared\\Entidades\\Categoria.cs",
@@ -398,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "ICategoriasRepository.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Interfaces\\ICategoriasRepository.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Repositories\\Interfaces\\ICategoriasRepository.cs",
@@ -410,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Tienda.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Tienda.cs",
               "RelativeDocumentMoniker": "Ventas.Shared\\Entidades\\Tienda.cs",
@@ -422,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Producto.cs",
               "RelativeDocumentMoniker": "Ventas.Shared\\Entidades\\Producto.cs",
@@ -434,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "20260526211823_seedD.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Migrations\\20260526211823_seedD.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Migrations\\20260526211823_seedD.cs",
@@ -446,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "OrdenProducto.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\OrdenProducto.cs",
               "RelativeDocumentMoniker": "Ventas.Shared\\Entidades\\OrdenProducto.cs",
@@ -458,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Orden.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Orden.cs",
               "RelativeDocumentMoniker": "Ventas.Shared\\Entidades\\Orden.cs",
@@ -470,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "ICategoriasUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\UnitOfWork\\Interfaces\\ICategoriasUnitOfWork.cs",
               "RelativeDocumentMoniker": "VentasBackend\\UnitOfWork\\Interfaces\\ICategoriasUnitOfWork.cs",
@@ -482,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "ClientesPage.jsx",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\ClientesPage.jsx",
               "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Pages\\ClientesPage.jsx",
@@ -494,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\index.css",
               "RelativeDocumentMoniker": "Ventas.Frontend\\src\\index.css",
@@ -506,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "clientesApi.js",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Services\\clientesApi.js",
               "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Services\\clientesApi.js",
@@ -518,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "20260525181218_tiendas.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Migrations\\20260525181218_tiendas.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Migrations\\20260525181218_tiendas.cs",
