@@ -30,8 +30,9 @@ function TiendasPage() {
                 <h1>Tienda {id}</h1>
             </div>
 
-            <h2>Tiendas disponibles</h2>
-
+            <div className="titulo">
+                <h2>🍔 Descubre sabores únicos y encuentra tu próxima comida favorita. Explora nuestras tiendas disponibles y ordena en minutos.</h2>
+            </div>
             <div className="tiendas-grid">
                 {tiendas.map((tienda) => (
                     <Link

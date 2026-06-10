@@ -12,5 +12,7 @@ public class OrdenProducto
     public int OrdenId { get; set; }//muchos
 
     public Orden? Ordenes { get; set; } //muchos
-    public ICollection<Producto>? Productos { get; set; } //uno
+    public int ProductoId { get; set; }
+    public Producto? Producto { get; set; }
+
 }

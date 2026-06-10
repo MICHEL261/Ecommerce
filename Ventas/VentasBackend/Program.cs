@@ -21,6 +21,8 @@ builder.Services.AddScoped<ICategoriasRepository, CategoriasRepository>();
 builder.Services.AddScoped<ICategoriasUnitOfWork, CategoriasUnitOfWork>();
 builder.Services.AddScoped<IClientesRepository, ClientesRepository>();
 builder.Services.AddScoped<IClientesUnitOfWork, ClientesUnitOfWork>();
+builder.Services.AddScoped<ITiendasRepository, TiendasRepository>();
+builder.Services.AddScoped<ITiendasUnitOfWork, TiendasUnitOfWork>();
 
 
 

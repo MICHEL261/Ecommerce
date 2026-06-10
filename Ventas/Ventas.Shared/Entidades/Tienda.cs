@@ -22,6 +22,8 @@ public class Tienda
     [Required(ErrorMessage = "El campo {0} es obligatorio.")]
     [MaxLength(100, ErrorMessage = "El campo {0} no puede tener más de {1} caracteres.")]
     public string Direccion { get; set; }
+    [MaxLength(200, ErrorMessage = "El campo {0} no puede tener más de {1} caracteres.")]
+    public string Descripcion { get; set; }
     public string Imagen { get; set; }
     public ICollection<Producto>? Productos { get; set; }//uno
 

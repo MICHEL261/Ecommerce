@@ -103,8 +103,7 @@ body {
 .tiendas-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    padding: 20px;
+
 }
 
 .tienda-card {
@@ -114,6 +113,7 @@ body {
     text-align: center;
     width: 100%;
     max-width: 250px;
+    min-width: 250px;
 }
     .tienda-card:hover {
         border: 2px solid #000000;
@@ -161,4 +161,12 @@ h1, h2 {
         opacity: 1;
         transform: translateX(0);
     }
+}
+.titulo {
+    background-color: wheat;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100px;
 }
