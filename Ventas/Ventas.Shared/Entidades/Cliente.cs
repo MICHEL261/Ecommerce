@@ -23,6 +23,7 @@ namespace Ventas.Shared.Entidades
         [Required(ErrorMessage = "El campo {0} es obligatorio.")]
         [MaxLength(100, ErrorMessage = "El campo {0} no puede tener más de {1} caracteres.")]
         public string Direccion { get; set; }
+        public Carrito Carrito { get; set; } = new Carrito();
 
         public ICollection<Orden>? Ordenes { get; set; }
     }

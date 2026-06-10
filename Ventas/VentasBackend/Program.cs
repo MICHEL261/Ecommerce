@@ -23,6 +23,8 @@ builder.Services.AddScoped<IClientesRepository, ClientesRepository>();
 builder.Services.AddScoped<IClientesUnitOfWork, ClientesUnitOfWork>();
 builder.Services.AddScoped<ITiendasRepository, TiendasRepository>();
 builder.Services.AddScoped<ITiendasUnitOfWork, TiendasUnitOfWork>();
+builder.Services.AddScoped<ICarritoRepository, CarritoRepository>();
+builder.Services.AddScoped<ICarritoUnitOfWork, CarritosUnitOfWork>();
 
 
 

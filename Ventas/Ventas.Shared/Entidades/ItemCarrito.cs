@@ -6,14 +6,12 @@ using System.Threading.Tasks;
 
 namespace Ventas.Shared.Entidades;
 
-public class OrdenProducto
+public class ItemCarrito
 {
     public int Id { get; set; }
     public int Cantidad { get; set; }
-    public int OrdenId { get; set; }//muchos
-
-    public Orden? Ordenes { get; set; } //muchos
     public int ProductoId { get; set; }
     public Producto? Producto { get; set; }
-
+    public int CarritoId { get; set; }=0;
+    public Carrito? Carrito { get; set; } = null;
 }

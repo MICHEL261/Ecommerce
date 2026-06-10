@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { getClientes } from "../services/clientesApi";
+import HomePageComponent from "../components/HomePageComponent";
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
     }, []);
 
     return (
+        <>
+        <HomePageComponent />
         <div>
             <h1>Lista de Clientes</h1>
 
@@ -37,7 +40,8 @@ function App() {
                         </div>
                     ))
             }
-        </div>
+            </div>
+        </>
     );
 }
 

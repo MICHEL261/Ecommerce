@@ -18,7 +18,7 @@ function HomePageComponent() {
                 <Link to="/productos"><button>Ir a Productos</button></Link>
             <Link to="/tiendas"><button>Ir a Tiendas</button></Link>
             <Link to="/"><img src={carrito} alt="logo" className="logo" /></Link>
-            <Link to="/"><img src={persona} alt="logo" className="logo" /></Link>
+            <Link to="/login"><img src={persona} alt="logo" className="logo" /></Link>
                 
                
             </nav>

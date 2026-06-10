@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import HomePageComponent from "../components/HomePageComponent";
 import { getTienda } from "../services/tiendasApi";
 import "../CSS/DetalleTiendas.css";
-import { agregarProducto } from "../services/carritoApi";
+
 function DetalleTiendaPage() {
     const { id } = useParams();
 
@@ -69,12 +69,6 @@ function DetalleTiendaPage() {
                         />
                         <h3>{producto.nombre}</h3>
                         <p>${producto.precio}</p>
-                        <button
-                            className="btn-carrito"
-                            onClick={() => agregarProducto(producto.id)}
-                        >
-                            Agregar al carrito 🛒
-                        </button>
                     </div>
 
                 ))}

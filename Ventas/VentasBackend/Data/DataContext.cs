@@ -16,7 +16,9 @@ public class DataContext :DbContext
     public DbSet<Categoria> Categorias { get; set; }
     public DbSet<Orden> Ordenes { get; set; }
     public DbSet<OrdenProducto> OrdenesProductos { get; set; }
+    public DbSet<Carrito> Carritos { get; set; }
 
+    public DbSet<ItemCarrito> ItemCarritos { get; set; }
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);

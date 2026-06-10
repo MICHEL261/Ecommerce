@@ -3,19 +3,79 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.frontend\\src\\pages\\detalletiendapage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\pages\\detalletiendapage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.frontend\\src\\services\\carritoapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\services\\carritoapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\pages\\tiendaspage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\pages\\tiendaspage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\pages\\detalletiendapage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\pages\\detalletiendapage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\controllers\\carritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.frontend\\src\\css\\detalletiendas.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\unitofwork\\interfaces\\icarritounitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\unitofwork\\interfaces\\icarritounitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.shared\\dto\\gregarproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|solutionrelative:ventas.shared\\dto\\gregarproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\unitofwork\\implementation\\carritosunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\unitofwork\\implementation\\carritosunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\repositories\\interfaces\\icarritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\repositories\\interfaces\\icarritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\repositories\\implementation\\carritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\repositories\\implementation\\carritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\pages\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\pages\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\pages\\clientespage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\pages\\clientespage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.frontend\\src\\components\\homepagecomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\components\\homepagecomponent.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\unitofwork\\implementation\\categoriasunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\unitofwork\\implementation\\categoriasunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\repositories\\interfaces\\iclientesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\repositories\\interfaces\\iclientesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\controllers\\itemcarritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\controllers\\itemcarritocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.shared\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|solutionrelative:ventas.shared\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\css\\detalletiendas.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\css\\detalletiendas.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
@@ -23,40 +83,12 @@
       "RelativeMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|solutionrelative:ventas.shared\\entidades\\tienda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\pages\\loginpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\pages\\loginpage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\pages\\clientespage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\pages\\clientespage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.frontend\\src\\services\\productosapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\services\\productosapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\services\\productosapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\services\\tiendasapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\services\\tiendasapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\data\\seeddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\data\\seeddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.shared\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|solutionrelative:ventas.shared\\entidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.shared\\entidades\\ordenproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|solutionrelative:ventas.shared\\entidades\\ordenproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\pages\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\pages\\homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\ventas.frontend\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -67,32 +99,12 @@
       "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\unitofwork\\implementation\\categoriasunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\unitofwork\\implementation\\categoriasunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\repositories\\implementation\\categoriasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\repositories\\implementation\\categoriasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\repositories\\interfaces\\iclientesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\repositories\\interfaces\\iclientesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.shared\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|solutionrelative:ventas.shared\\entidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.shared\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|solutionrelative:ventas.shared\\entidades\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\unitofwork\\interfaces\\icategoriasunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,154 +138,219 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DetalleTiendas.css",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\CSS\\DetalleTiendas.css",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\CSS\\DetalleTiendas.css",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\CSS\\DetalleTiendas.css",
-              "RelativeToolTip": "Ventas.Frontend\\src\\CSS\\DetalleTiendas.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-06-09T01:36:00.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "DetalleTiendaPage.jsx",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\DetalleTiendaPage.jsx",
               "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Pages\\DetalleTiendaPage.jsx",
               "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\DetalleTiendaPage.jsx",
               "RelativeToolTip": "Ventas.Frontend\\src\\Pages\\DetalleTiendaPage.jsx",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAAwEwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-06-07T18:47:34.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ClientesPage.jsx",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\ClientesPage.jsx",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Pages\\ClientesPage.jsx",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\ClientesPage.jsx",
-              "RelativeToolTip": "Ventas.Frontend\\src\\Pages\\ClientesPage.jsx",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-05-25T02:25:48.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Home.css",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\CSS\\Home.css",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\CSS\\Home.css",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\CSS\\Home.css",
-              "RelativeToolTip": "Ventas.Frontend\\src\\CSS\\Home.css",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-25T02:39:28.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginPage.jsx",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\LoginPage.jsx",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Pages\\LoginPage.jsx",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\LoginPage.jsx",
-              "RelativeToolTip": "Ventas.Frontend\\src\\Pages\\LoginPage.jsx",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-06-08T23:36:09.567Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.css",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\CSS\\Login.css",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\CSS\\Login.css",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\CSS\\Login.css",
-              "RelativeToolTip": "Ventas.Frontend\\src\\CSS\\Login.css",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAowEQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-06-08T23:45:07.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Tienda.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Tienda.cs",
-              "RelativeDocumentMoniker": "Ventas.Shared\\Entidades\\Tienda.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Tienda.cs",
-              "RelativeToolTip": "Ventas.Shared\\Entidades\\Tienda.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-25T18:01:47.81Z",
+              "WhenOpened": "2026-06-10T20:52:42.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CarritoApi.js",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Services\\CarritoApi.js",
+              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Services\\CarritoApi.js",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Services\\CarritoApi.js",
+              "RelativeToolTip": "Ventas.Frontend\\src\\Services\\CarritoApi.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-10T20:50:42.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "gregarProductoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\DTO\\gregarProductoDTO.cs",
+              "RelativeDocumentMoniker": "Ventas.Shared\\DTO\\gregarProductoDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\DTO\\gregarProductoDTO.cs",
+              "RelativeToolTip": "Ventas.Shared\\DTO\\gregarProductoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T20:49:09.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICarritoUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\UnitOfWork\\Interfaces\\ICarritoUnitOfWork.cs",
+              "RelativeDocumentMoniker": "VentasBackend\\UnitOfWork\\Interfaces\\ICarritoUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\UnitOfWork\\Interfaces\\ICarritoUnitOfWork.cs",
+              "RelativeToolTip": "VentasBackend\\UnitOfWork\\Interfaces\\ICarritoUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T20:47:05.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICarritoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Interfaces\\ICarritoRepository.cs",
+              "RelativeDocumentMoniker": "VentasBackend\\Repositories\\Interfaces\\ICarritoRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Interfaces\\ICarritoRepository.cs",
+              "RelativeToolTip": "VentasBackend\\Repositories\\Interfaces\\ICarritoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T20:33:11.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomePage.jsx",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\HomePage.jsx",
+              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Pages\\HomePage.jsx",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\HomePage.jsx",
+              "RelativeToolTip": "Ventas.Frontend\\src\\Pages\\HomePage.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-05-25T02:23:49.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TiendasPage.jsx",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\TiendasPage.jsx",
               "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Pages\\TiendasPage.jsx",
               "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\TiendasPage.jsx",
               "RelativeToolTip": "Ventas.Frontend\\src\\Pages\\TiendasPage.jsx",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAACQAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAwDAAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2026-06-07T20:08:52.568Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductosApi.js",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Services\\ProductosApi.js",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Services\\ProductosApi.js",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Services\\ProductosApi.js",
-              "RelativeToolTip": "Ventas.Frontend\\src\\Services\\ProductosApi.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-06-10T00:04:28.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TiendasApi.js",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Services\\TiendasApi.js",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Services\\TiendasApi.js",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Services\\TiendasApi.js",
-              "RelativeToolTip": "Ventas.Frontend\\src\\Services\\TiendasApi.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-06-09T01:41:22.739Z",
+              "DocumentIndex": 3,
+              "Title": "CarritoController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Controllers\\CarritoController.cs",
+              "RelativeDocumentMoniker": "VentasBackend\\Controllers\\CarritoController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Controllers\\CarritoController.cs",
+              "RelativeToolTip": "VentasBackend\\Controllers\\CarritoController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T20:16:50.845Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "SeedDb.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Data\\SeedDb.cs",
-              "RelativeDocumentMoniker": "VentasBackend\\Data\\SeedDb.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Data\\SeedDb.cs",
-              "RelativeToolTip": "VentasBackend\\Data\\SeedDb.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAuwGQAAAAgAAAAAAAAAA==",
+              "Title": "ClientesPage.jsx",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\ClientesPage.jsx",
+              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Pages\\ClientesPage.jsx",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\ClientesPage.jsx",
+              "RelativeToolTip": "Ventas.Frontend\\src\\Pages\\ClientesPage.jsx",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-05-25T02:25:48.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarritosUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\UnitOfWork\\Implementation\\CarritosUnitOfWork.cs",
+              "RelativeDocumentMoniker": "VentasBackend\\UnitOfWork\\Implementation\\CarritosUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\UnitOfWork\\Implementation\\CarritosUnitOfWork.cs",
+              "RelativeToolTip": "VentasBackend\\UnitOfWork\\Implementation\\CarritosUnitOfWork.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T23:50:15.731Z",
+              "WhenOpened": "2026-06-10T20:26:46.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "HomePageComponent.jsx",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Components\\HomePageComponent.jsx",
+              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Components\\HomePageComponent.jsx",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Components\\HomePageComponent.jsx",
+              "RelativeToolTip": "Ventas.Frontend\\src\\Components\\HomePageComponent.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-06-10T20:31:55.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarritoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Implementation\\CarritoRepository.cs",
+              "RelativeDocumentMoniker": "VentasBackend\\Repositories\\Implementation\\CarritoRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Implementation\\CarritoRepository.cs",
+              "RelativeToolTip": "VentasBackend\\Repositories\\Implementation\\CarritoRepository.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAiwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T20:05:30.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Program.cs",
+              "RelativeDocumentMoniker": "VentasBackend\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Program.cs",
+              "RelativeToolTip": "VentasBackend\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T20:13:02.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CategoriasUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\UnitOfWork\\Implementation\\CategoriasUnitOfWork.cs",
+              "RelativeDocumentMoniker": "VentasBackend\\UnitOfWork\\Implementation\\CategoriasUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\UnitOfWork\\Implementation\\CategoriasUnitOfWork.cs",
+              "RelativeToolTip": "VentasBackend\\UnitOfWork\\Implementation\\CategoriasUnitOfWork.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T20:59:22.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "VentasBackend\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Data\\DataContext.cs",
+              "RelativeToolTip": "VentasBackend\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T20:41:21.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ItemCarritoController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Controllers\\ItemCarritoController.cs",
+              "RelativeDocumentMoniker": "VentasBackend\\Controllers\\ItemCarritoController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Controllers\\ItemCarritoController.cs",
+              "RelativeToolTip": "VentasBackend\\Controllers\\ItemCarritoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T20:02:05.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Producto.cs",
               "RelativeDocumentMoniker": "Ventas.Shared\\Entidades\\Producto.cs",
@@ -286,19 +363,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomePage.jsx",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\HomePage.jsx",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Pages\\HomePage.jsx",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\HomePage.jsx",
-              "RelativeToolTip": "Ventas.Frontend\\src\\Pages\\HomePage.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-05-25T02:23:49.899Z"
+              "DocumentIndex": 15,
+              "Title": "IClientesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Interfaces\\IClientesRepository.cs",
+              "RelativeDocumentMoniker": "VentasBackend\\Repositories\\Interfaces\\IClientesRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Interfaces\\IClientesRepository.cs",
+              "RelativeToolTip": "VentasBackend\\Repositories\\Interfaces\\IClientesRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-26T21:26:36.394Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
+              "Title": "DetalleTiendas.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\CSS\\DetalleTiendas.css",
+              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\CSS\\DetalleTiendas.css",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\CSS\\DetalleTiendas.css",
+              "RelativeToolTip": "Ventas.Frontend\\src\\CSS\\DetalleTiendas.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-09T01:36:00.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Tienda.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Tienda.cs",
+              "RelativeDocumentMoniker": "Ventas.Shared\\Entidades\\Tienda.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Tienda.cs",
+              "RelativeToolTip": "Ventas.Shared\\Entidades\\Tienda.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T18:01:47.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductosApi.js",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Services\\ProductosApi.js",
+              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Services\\ProductosApi.js",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Services\\ProductosApi.js",
+              "RelativeToolTip": "Ventas.Frontend\\src\\Services\\ProductosApi.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-10T00:04:28.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TiendasApi.js",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Services\\TiendasApi.js",
+              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Services\\TiendasApi.js",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Services\\TiendasApi.js",
+              "RelativeToolTip": "Ventas.Frontend\\src\\Services\\TiendasApi.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-09T01:41:22.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\App.jsx",
               "RelativeDocumentMoniker": "Ventas.Frontend\\src\\App.jsx",
@@ -310,32 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OrdenProducto.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\OrdenProducto.cs",
-              "RelativeDocumentMoniker": "Ventas.Shared\\Entidades\\OrdenProducto.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\OrdenProducto.cs",
-              "RelativeToolTip": "Ventas.Shared\\Entidades\\OrdenProducto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T20:20:57.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CategoriasController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Controllers\\CategoriasController.cs",
-              "RelativeDocumentMoniker": "VentasBackend\\Controllers\\CategoriasController.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Controllers\\CategoriasController.cs",
-              "RelativeToolTip": "VentasBackend\\Controllers\\CategoriasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T21:02:35.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "App.css",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\App.css",
               "RelativeDocumentMoniker": "Ventas.Frontend\\src\\App.css",
@@ -347,43 +448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CategoriasUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\UnitOfWork\\Implementation\\CategoriasUnitOfWork.cs",
-              "RelativeDocumentMoniker": "VentasBackend\\UnitOfWork\\Implementation\\CategoriasUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\UnitOfWork\\Implementation\\CategoriasUnitOfWork.cs",
-              "RelativeToolTip": "VentasBackend\\UnitOfWork\\Implementation\\CategoriasUnitOfWork.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T20:59:22.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IClientesRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Interfaces\\IClientesRepository.cs",
-              "RelativeDocumentMoniker": "VentasBackend\\Repositories\\Interfaces\\IClientesRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Interfaces\\IClientesRepository.cs",
-              "RelativeToolTip": "VentasBackend\\Repositories\\Interfaces\\IClientesRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T21:26:36.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Cliente.cs",
-              "RelativeDocumentMoniker": "Ventas.Shared\\Entidades\\Cliente.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Cliente.cs",
-              "RelativeToolTip": "Ventas.Shared\\Entidades\\Cliente.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T20:30:05.593Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "CategoriasRepository.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Implementation\\CategoriasRepository.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Repositories\\Implementation\\CategoriasRepository.cs",
@@ -395,19 +460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Data\\DataContext.cs",
-              "RelativeDocumentMoniker": "VentasBackend\\Data\\DataContext.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Data\\DataContext.cs",
-              "RelativeToolTip": "VentasBackend\\Data\\DataContext.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAUwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-26T20:41:21.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "20260526212223_aa.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Migrations\\20260526212223_aa.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Migrations\\20260526212223_aa.cs",
@@ -419,7 +472,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Categoria.cs",
               "RelativeDocumentMoniker": "Ventas.Shared\\Entidades\\Categoria.cs",
@@ -431,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "20260526211823_seedD.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Migrations\\20260526211823_seedD.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Migrations\\20260526211823_seedD.cs",
@@ -443,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "ICategoriasUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\UnitOfWork\\Interfaces\\ICategoriasUnitOfWork.cs",
               "RelativeDocumentMoniker": "VentasBackend\\UnitOfWork\\Interfaces\\ICategoriasUnitOfWork.cs",
@@ -455,7 +508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "index.css",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\index.css",
               "RelativeDocumentMoniker": "Ventas.Frontend\\src\\index.css",
@@ -467,7 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "clientesApi.js",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Services\\clientesApi.js",
               "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Services\\clientesApi.js",
@@ -479,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "20260525181218_tiendas.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Migrations\\20260525181218_tiendas.cs",
               "RelativeDocumentMoniker": "VentasBackend\\Migrations\\20260525181218_tiendas.cs",
