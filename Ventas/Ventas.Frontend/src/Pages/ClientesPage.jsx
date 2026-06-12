@@ -33,7 +33,7 @@ function App() {
         <HomePageComponent />
         <div>
                 <h1>Lista de Clientes</h1>
-                <div class="columnas">
+                <div className="columnas">
                     <div>ID</div>
                     <div>Nombre</div>
                     <div>Apellido</div>

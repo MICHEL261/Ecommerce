@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import ClientesPage from "./pages/ClientesPage";
 import TiendasPage from "./pages/TiendasPage";
 import LoginPage from "./pages/LoginPage";
+import CarritoPage from "./pages/CarritoPage";
 import EditarClientePage from "./Pages/EditarClientePage";
 
 import DetalleTiendaPage from "./pages/DetalleTiendaPage";
@@ -23,6 +24,7 @@ function App() {
 
                 <Route path="/tienda/:id" element={<DetalleTiendaPage />} />
                 <Route path="/login" element={<LoginPage />} />
+                <Route path="/carrito" element={<CarritoPage />} />
                 <Route path="/clientes/editar/:id" element={<EditarClientePage />} />
 
             </Routes>

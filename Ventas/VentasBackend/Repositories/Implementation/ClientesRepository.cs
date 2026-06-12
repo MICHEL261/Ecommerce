@@ -11,22 +11,14 @@ namespace VentasBackend.Repositories.Implementation;
 public class ClientesRepository : GenericRepository<Cliente>, IClientesRepository
 {
     private readonly DataContext _context;
-    private readonly SignInManager<Cliente> _signInManager;
+ 
 
-    public ClientesRepository(DataContext context, SignInManager<Cliente> signInManager) : base(context)
+    public ClientesRepository(DataContext context) : base(context)
     {
         _context = context;
-        _signInManager = signInManager;
-    }
-    public async Task<SignInResult> LoginAsync(LoginDTO model)
-    {
-        return await _signInManager.PasswordSignInAsync(model.Email, model.Password, false, false);
+     
     }
 
-    public async Task LogoutAsync()
-    {
-        await _signInManager.SignOutAsync();
-    }
 
 
     public override async Task<ActionResponse<IEnumerable<Cliente>>> GetAsync()

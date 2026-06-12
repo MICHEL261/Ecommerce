@@ -29,7 +29,8 @@ builder.Services.AddScoped<ITiendasUnitOfWork, TiendasUnitOfWork>();
 builder.Services.AddScoped<ICarritoRepository, CarritoRepository>();
 builder.Services.AddScoped<ICarritoUnitOfWork, CarritosUnitOfWork>();
 
-
+builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+builder.Services.AddScoped<IAuthUnitOfWork, AuthUnitOfWork>();
 
 builder.Services.AddCors(options =>
 {
@@ -53,6 +54,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         ClockSkew = TimeSpan.Zero
     });
 
+
 var app = builder.Build();
 SeedData(app);
 
@@ -66,6 +68,8 @@ void SeedData(WebApplication app)
         service!.SeedAsync().Wait();
     }
 }
+app.UseAuthentication();
+app.UseAuthorization();
 
 // 👇 Activa la política CORS antes de MapControllers()
 app.UseCors("AllowFrontend");

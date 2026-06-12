@@ -38,8 +38,8 @@ public class SeedDb
     {
         if (!_context.Clientes.Any())
         {
-            _context.Clientes.Add(new Cliente { Nombre = "Juan", Apellido = "Pérez", Email = "juan.perez@example.com", Telefono = "555-1234" , Direccion = "Calle 123" });
-            _context.Clientes.Add(new Cliente { Nombre = "María", Apellido = "García", Email = "maria.garcia@example.com", Telefono = "555-5678" , Direccion = "Calle 456" });
+            _context.Clientes.Add(new Cliente { Nombre = "Juan", Apellido = "Pérez", Email = "michel@gmail.com", Telefono = "555-1234" , Direccion = "Calle 123", Password = "1234567" });
+            _context.Clientes.Add(new Cliente { Nombre = "María", Apellido = "García", Email = "maria.garcia@example.com", Telefono = "555-5678" , Direccion = "Calle 456" ,Password = "Password123!" });
         }
 
 

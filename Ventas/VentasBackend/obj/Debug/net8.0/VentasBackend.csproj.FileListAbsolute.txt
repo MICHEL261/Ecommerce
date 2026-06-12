@@ -138,3 +138,4 @@ C:\Users\PC\Desktop\Ecommerce\Ventas\VentasBackend\obj\Debug\net8.0\VentasBacken
 C:\Users\PC\Desktop\Ecommerce\Ventas\VentasBackend\obj\Debug\net8.0\VentasBackend.genruntimeconfig.cache
 C:\Users\PC\Desktop\Ecommerce\Ventas\VentasBackend\obj\Debug\net8.0\ref\VentasBackend.dll
 C:\Users\PC\Desktop\Ecommerce\Ventas\VentasBackend\obj\Debug\net8.0\VentasBackend.sourcelink.json
+C:\Users\PC\Desktop\Ecommerce\Ventas\VentasBackend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

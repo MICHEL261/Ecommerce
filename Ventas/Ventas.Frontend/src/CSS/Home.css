@@ -11,6 +11,30 @@
     left: 0;
     z-index: 1000;
 }
+.usuario-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nombre-usuario {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn-logout {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+    .btn-logout:hover {
+        opacity: 0.9;
+    }
 body {
     margin: 0;
     padding: 0;

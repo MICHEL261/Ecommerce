@@ -13,3 +13,7 @@ export const agregarProducto = async (carritoId, productoId, cantidad) => {
 
     return response.data;
 };
+export const getCarrito = async (carritoId) => {
+    const response = await axios.get(`${API_URL}/${carritoId}`);
+    return response.data;
+};

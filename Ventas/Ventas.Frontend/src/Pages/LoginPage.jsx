@@ -1,22 +1,71 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import HomePageComponent from "../components/HomePageComponent";
 import "../CSS/Login.css";
+import { login } from "../services/authApi";
 
 function LoginPage() {
     const [moverPanel, setMoverPanel] = useState(false);
+
+    const navigate = useNavigate();
+
+
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+ 
+
+    const iniciarSesion = async (e) => {
+        e.preventDefault();
+
+
+        try {
+            const data = await login(email, password);
+
+            localStorage.setItem("token", data.token);
+            localStorage.setItem("clienteId", data.clienteId);
+            localStorage.setItem("nombre", data.nombre);
+            localStorage.setItem("carritoId", data.carritoId);
+
+            alert(`Bienvenido ${data.nombre}`);
+            const data2 = await login(email, password);
+
+            console.log("LOGIN:", data2);
+            navigate("/");
+        }
+        catch (error) {
+            console.error(error);
+            alert("Correo o contraseña incorrectos");
+        }
+    };
 
     return (
         <>
             <HomePageComponent />
 
             <div className="container1">
+
                 {/* LOGIN */}
                 <div className="form-container login-container">
-                    <form>
+                    <form onSubmit={iniciarSesion}>
                         <h1>Login</h1>
-                        <input type="text" placeholder="Usuario" />
-                        <input type="password" placeholder="Contraseña" />
-                        <button type="submit">Ingresar</button>
+
+                        <input
+                            type="email"
+                            placeholder="Correo"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                        />
+
+                        <input
+                            type="password"
+                            placeholder="Contraseña"
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                        />
+
+                        <button type="submit">
+                            Ingresar
+                        </button>
                     </form>
                 </div>
 
@@ -24,10 +73,25 @@ function LoginPage() {
                 <div className="form-container register-container">
                     <form>
                         <h1>Registro</h1>
-                        <input type="text" placeholder="Nombre" />
-                        <input type="email" placeholder="Correo" />
-                        <input type="password" placeholder="Contraseña" />
-                        <button type="submit">Registrarse</button>
+
+                        <input
+                            type="text"
+                            placeholder="Nombre"
+                        />
+
+                        <input
+                            type="email"
+                            placeholder="Correo"
+                        />
+
+                        <input
+                            type="password"
+                            placeholder="Contraseña"
+                        />
+
+                        <button type="submit">
+                            Registrarse
+                        </button>
                     </form>
                 </div>
 
@@ -37,9 +101,13 @@ function LoginPage() {
                         }`}
                 >
                     <div className="overlay">
+
                         <div className="overlay-panel overlay-left">
-                            <h1>¡Bienvenida!</h1>
-                            <p>¿Ya tienes cuenta?</p>
+                            <h1>¡Bienvenido!</h1>
+
+                            <p>
+                                ¿Ya tienes una cuenta?
+                            </p>
 
                             <button
                                 type="button"
@@ -51,7 +119,10 @@ function LoginPage() {
 
                         <div className="overlay-panel overlay-right">
                             <h1>Hola!</h1>
-                            <p>Crea tu cuenta para comenzar</p>
+
+                            <p>
+                                Crea tu cuenta para comenzar
+                            </p>
 
                             <button
                                 type="button"
@@ -60,8 +131,10 @@ function LoginPage() {
                                 Registro
                             </button>
                         </div>
+
                     </div>
                 </div>
+
             </div>
         </>
     );

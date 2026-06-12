@@ -11,8 +11,5 @@ public interface IClientesUnitOfWork
     Task<ActionResponse<Cliente>> GetAsync(int id);
     Task<ActionResponse<Cliente>> AddAsync(Cliente entity);
 
-    Task<SignInResult> LoginAsync(LoginDTO model);
-
-    Task LogoutAsync();
-
+    
 }

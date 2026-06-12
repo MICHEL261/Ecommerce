@@ -24,6 +24,8 @@ namespace Ventas.Shared.Entidades
         [MaxLength(100, ErrorMessage = "El campo {0} no puede tener más de {1} caracteres.")]
         public string Direccion { get; set; }
         public Carrito? Carrito { get; set; }
+        [Required]
+        public string Password { get; set; }
 
         public ICollection<Orden>? Ordenes { get; set; }
     }
