@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ventas.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8aa95ed39a531c44223e42747c32746bd26926d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1f7f2d867c72209ff4800e6dd37c47101309938")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ventas.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ventas.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

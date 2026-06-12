@@ -1,0 +1,32 @@
+.columnas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    background-color: saddlebrown;
+    color: white;
+}
+    .columnas > div {
+        border: 1px solid black;
+        padding: 20px;
+        flex: 1;
+        border-radius: 5px;
+    }
+
+.fila-cliente {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.acciones {
+    width: 125px;
+    justify-content:space-between;
+}

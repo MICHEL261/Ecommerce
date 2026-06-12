@@ -109,13 +109,13 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
                 Result = entity
             };
         }
-        catch (DbUpdateException)
+        catch (DbUpdateException ex)
         {
-            return DbUpdateExceptionActionResponse();
-        }
-        catch (Exception exception)
-        {
-            return ExceptionActionResponse(exception);
+            return new ActionResponse<T>
+            {
+                WasSuccess = false,
+                Message = ex.InnerException?.Message ?? ex.Message
+            };
         }
     }
 

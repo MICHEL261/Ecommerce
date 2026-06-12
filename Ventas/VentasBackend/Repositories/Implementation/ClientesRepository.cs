@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Ventas.Shared.DTO;
 using Ventas.Shared.Entidades;
 using Ventas.Shared.Responses;
 using VentasBackend.Data;
@@ -9,10 +11,23 @@ namespace VentasBackend.Repositories.Implementation;
 public class ClientesRepository : GenericRepository<Cliente>, IClientesRepository
 {
     private readonly DataContext _context;
-    public ClientesRepository(DataContext context) : base(context)
+    private readonly SignInManager<Cliente> _signInManager;
+
+    public ClientesRepository(DataContext context, SignInManager<Cliente> signInManager) : base(context)
     {
         _context = context;
+        _signInManager = signInManager;
     }
+    public async Task<SignInResult> LoginAsync(LoginDTO model)
+    {
+        return await _signInManager.PasswordSignInAsync(model.Email, model.Password, false, false);
+    }
+
+    public async Task LogoutAsync()
+    {
+        await _signInManager.SignOutAsync();
+    }
+
 
     public override async Task<ActionResponse<IEnumerable<Cliente>>> GetAsync()
     {
@@ -45,6 +60,55 @@ public class ClientesRepository : GenericRepository<Cliente>, IClientesRepositor
             Result = Cliente
         };
     }
+    public override async Task<ActionResponse<Cliente>> AddAsync(Cliente entity)
+    {
+        _context.Clientes.Add(entity);
+
+        try
+        {
+            await _context.SaveChangesAsync();
+
+            var carrito = new Carrito
+            {
+                ClienteId = entity.Id
+            };
+
+            _context.Carritos.Add(carrito);
+            await _context.SaveChangesAsync();
+
+            return new ActionResponse<Cliente>
+            {
+                WasSuccess = true,
+                Result = entity
+            };
+        }
+        catch (DbUpdateException)
+        {
+            return DbUpdateExceptionActionResponse();
+        }
+        catch (Exception exception)
+        {
+            return ExceptionActionResponse(exception);
+        }
+    }
 
 
+
+    private ActionResponse<Cliente> ExceptionActionResponse(Exception exception)
+    {
+        return new ActionResponse<Cliente>
+        {
+            WasSuccess = false,
+            Message = exception.Message
+        };
+    }
+
+    private ActionResponse<Cliente> DbUpdateExceptionActionResponse()
+    {
+        return new ActionResponse<Cliente  >
+        {
+            WasSuccess = false,
+            Message = "Ya existe el registro que estas intentando crear."
+        };
+    }
 }

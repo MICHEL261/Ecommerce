@@ -26,6 +26,20 @@ function DetalleTiendaPage() {
     if (!tienda) {
         return <p>Cargando...</p>;
     }
+    
+
+    const agregarAlCarrito = async (productoId) => {
+        try {
+            const carritoId = 1;
+
+            await agregarProducto(carritoId, productoId, 1);
+
+            alert("Producto agregado al carrito");
+        } catch (error) {
+            console.error(error);
+            alert("Error al agregar producto");
+        }
+    };
 
     return (
         <>
@@ -71,7 +85,7 @@ function DetalleTiendaPage() {
                         <p>${producto.precio}</p>
                         <button
                             className="btn-carrito"
-                            onClick={() => agregarProducto(producto.id)}
+                            onClick={() => agregarAlCarrito(producto.id)}
                         >
                             Agregar al carrito 🛒
                         </button>

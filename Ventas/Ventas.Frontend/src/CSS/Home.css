@@ -134,7 +134,11 @@ h1, h2 {
 .logo {
     height: 70px;
     width: auto;
-    animation: flotar 3s ease-in-out infinite;
+   
+}
+.Imagenes {
+    height: 35px;
+    width: 35px;
 }
 
 @keyframes flotar {
@@ -169,4 +173,16 @@ h1, h2 {
     justify-content: center;
     justify-items: center;
     height: 100px;
+}
+.menu {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    width: 200px;
+    height: calc(100vh - 70px);
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
 }
