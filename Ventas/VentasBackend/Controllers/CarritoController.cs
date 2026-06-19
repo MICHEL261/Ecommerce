@@ -15,6 +15,8 @@ public class CarritoController : GenericController<Carrito>
     {
         _CarritoUnitOfWork = carritoUnitOfWork;
     }
+
+
     [HttpPost("{carritoId}/productos")]
     public async Task<IActionResult> AgregarProducto(
     int carritoId,
@@ -53,5 +55,52 @@ public class CarritoController : GenericController<Carrito>
             return Ok(response.Result);
         }
         return NotFound(response.Message);
+    }
+    [HttpPut("item/{itemId}")]
+    public async Task<IActionResult> ActualizarCantidad(
+    int itemId,
+    [FromBody] ActualizarCantidadDTO model)
+    {
+        var response =
+            await _CarritoUnitOfWork.ActualizarCantidadAsync(
+                itemId,
+                model.Cantidad);
+
+        if (response.WasSuccess)
+        {
+            return Ok(response.Result);
+        }
+
+        return BadRequest(response.Message);
+    }
+
+    [HttpPost("crear")]
+    public async Task<IActionResult> CrearOrden(
+    [FromBody] CrearOrdenDTO model)
+    {
+        var response =
+            await _CarritoUnitOfWork.CrearOrdenAsync(
+                model.ClienteId);
+
+        if (response.WasSuccess)
+        {
+            return Ok(response.Result);
+        }
+
+        return BadRequest(response.Message);
+    }
+
+
+    [HttpDelete("item/{itemId}/carrito/{carritoId}")]
+    public async Task<IActionResult> EliminarProducto(
+        int itemId,
+        int carritoId)
+    {
+        var response = await _CarritoUnitOfWork.EliminarProductoAsync(itemId, carritoId);
+        if (response.WasSuccess)
+        {
+            return Ok(response.Result);
+        }
+        return BadRequest(response.Message);
     }
 }

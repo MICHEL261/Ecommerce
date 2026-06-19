@@ -14,14 +14,7 @@ function HomePageComponent() {
     const nombre = localStorage.getItem("nombre");
    
 
-    const cerrarSesion = () => {
-        localStorage.removeItem("token");
-        localStorage.removeItem("clienteId");
-        localStorage.removeItem("nombre");
-        localStorage.removeItem("carritoId");
-
-        window.location.href = "/";
-    };
+ 
 
     return (
         <nav className="navbar">
@@ -66,7 +59,7 @@ function HomePageComponent() {
 
             <div className="usuario-info">
 
-                <Link to="/login">
+                <Link to={nombre ? "/usuario" : "/login"}>
                     <img
                         src={persona}
                         alt="usuario"
@@ -80,12 +73,7 @@ function HomePageComponent() {
                             Hola, {nombre}
                         </span>
 
-                        <button
-                            className="btn-logout"
-                            onClick={cerrarSesion}
-                        >
-                            Salir
-                        </button>
+                       
                     </>
                 ) : (
                     <Link to="/login">

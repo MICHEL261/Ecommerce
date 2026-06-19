@@ -25,6 +25,10 @@ function LoginPage() {
             localStorage.setItem("clienteId", data.clienteId);
             localStorage.setItem("nombre", data.nombre);
             localStorage.setItem("carritoId", data.carritoId);
+            localStorage.setItem("apellido", data.apellido);
+            localStorage.setItem("email", data.email);
+            localStorage.setItem("telefono", data.telefono);
+            localStorage.setItem("direccion", data.direccion);
 
             alert(`Bienvenido ${data.nombre}`);
             const data2 = await login(email, password);

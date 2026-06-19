@@ -38,12 +38,43 @@ public class SeedDb
     {
         if (!_context.Clientes.Any())
         {
-            _context.Clientes.Add(new Cliente { Nombre = "Juan", Apellido = "Pérez", Email = "michel@gmail.com", Telefono = "555-1234" , Direccion = "Calle 123", Password = "1234567" });
-            _context.Clientes.Add(new Cliente { Nombre = "María", Apellido = "García", Email = "maria.garcia@example.com", Telefono = "555-5678" , Direccion = "Calle 456" ,Password = "Password123!" });
+            var cliente1 = new Cliente
+            {
+                Nombre = "Juan",
+                Apellido = "Pérez",
+                Email = "michel@gmail.com",
+                Telefono = "555-1234",
+                Direccion = "Calle 123",
+                Password = "1234567"
+            };
+
+            var cliente2 = new Cliente
+            {
+                Nombre = "María",
+                Apellido = "García",
+                Email = "maria.garcia@example.com",
+                Telefono = "555-5678",
+                Direccion = "Calle 456",
+                Password = "Password123!"
+            };
+
+            _context.Clientes.Add(cliente1);
+            _context.Clientes.Add(cliente2);
+
+            await _context.SaveChangesAsync();
+
+            _context.Carritos.Add(new Carrito
+            {
+                ClienteId = cliente1.Id
+            });
+
+            _context.Carritos.Add(new Carrito
+            {
+                ClienteId = cliente2.Id
+            });
+
+            await _context.SaveChangesAsync();
         }
-
-
-        await _context.SaveChangesAsync();
     }
 
     private async Task CheckTiendasAsync()

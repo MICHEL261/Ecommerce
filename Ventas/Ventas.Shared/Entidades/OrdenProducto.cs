@@ -11,9 +11,10 @@ public class OrdenProducto
     public int Id { get; set; }
     public int Cantidad { get; set; }
     public int OrdenId { get; set; }//muchos
-
+    public double Precio { get; set; }
     public Orden? Ordenes { get; set; } //muchos
     public int ProductoId { get; set; }
     public Producto? Producto { get; set; }
+    
 
 }
