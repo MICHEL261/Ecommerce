@@ -1,7 +1,8 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getCliente, updateCliente } from "../services/clientesApi";
-
+import HomePageComponent from "../components/HomePageComponent";
+import "../CSS/EditarCliente.css";
 function EditarClientePage() {
     const { id } = useParams();
     const navigate = useNavigate();
@@ -46,10 +47,16 @@ function EditarClientePage() {
     };
 
     return (
-        <div>
-            <h1>Editar Cliente</h1>
+     <>
+            <HomePageComponent />
 
-            <form onSubmit={guardar}>
+            <div className="editar-container">
+
+                <div className="editar-card">
+
+                    <h1>Editar Cliente</h1>
+
+                    <form onSubmit={guardar} className="edicion">
 
                 <div>
                     <label>Nombre</label>
@@ -121,12 +128,16 @@ function EditarClientePage() {
                     />
                 </div>
 
-                <button type="submit">
-                    Guardar cambios
-                </button>
+                        <button type="submit">
+                            Guardar cambios
+                        </button>
 
-            </form>
-        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </>
     );
 }
 

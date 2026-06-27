@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.frontend\\src\\pages\\carritopage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\pages\\carritopage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.frontend\\src\\services\\carritoapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{1DAC56DA-ADF3-FDE9-773A-DC0254B365F4}|C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend|solutionrelative:ventas.frontend\\src\\services\\carritoapi.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.shared\\entidades\\ordenproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|solutionrelative:ventas.shared\\entidades\\ordenproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventasbackend\\repositories\\implementation\\carritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E3D04FA-9686-ED11-D756-BFB9E6D66B81}|VentasBackend\\VentasBackend.csproj|solutionrelative:ventasbackend\\repositories\\implementation\\carritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|c:\\users\\pc\\desktop\\ecommerce\\ventas\\ventas.shared\\entidades\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41D668FE-82E7-EA26-BC5A-DF6E521C32BC}|Ventas.Shared\\Ventas.Shared.csproj|solutionrelative:ventas.shared\\entidades\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,73 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CarritoPage.jsx",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\CarritoPage.jsx",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Pages\\CarritoPage.jsx",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Pages\\CarritoPage.jsx",
-              "RelativeToolTip": "Ventas.Frontend\\src\\Pages\\CarritoPage.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-06-18T20:01:47.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrdenProducto.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\OrdenProducto.cs",
-              "RelativeDocumentMoniker": "Ventas.Shared\\Entidades\\OrdenProducto.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\OrdenProducto.cs",
-              "RelativeToolTip": "Ventas.Shared\\Entidades\\OrdenProducto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T20:00:17.078Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CarritoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Implementation\\CarritoRepository.cs",
-              "RelativeDocumentMoniker": "VentasBackend\\Repositories\\Implementation\\CarritoRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\VentasBackend\\Repositories\\Implementation\\CarritoRepository.cs",
-              "RelativeToolTip": "VentasBackend\\Repositories\\Implementation\\CarritoRepository.cs",
-              "ViewState": "AgIAANAAAAAAAAAAAAAwwOAAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T19:57:36.142Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Orden.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Orden.cs",
-              "RelativeDocumentMoniker": "Ventas.Shared\\Entidades\\Orden.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Shared\\Entidades\\Orden.cs",
-              "RelativeToolTip": "Ventas.Shared\\Entidades\\Orden.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-18T19:52:17.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CarritoApi.js",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Services\\CarritoApi.js",
-              "RelativeDocumentMoniker": "Ventas.Frontend\\src\\Services\\CarritoApi.js",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\Ecommerce\\Ventas\\Ventas.Frontend\\src\\Services\\CarritoApi.js",
-              "RelativeToolTip": "Ventas.Frontend\\src\\Services\\CarritoApi.js",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-06-18T19:51:18.135Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:43:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"

@@ -29,7 +29,8 @@ function HomePageComponent() {
                 <div className="menu">
                     <Link to="/clientes">Clientes</Link>
                  
-                    <Link to="/tiendas">Tiendas</Link>
+                    <Link to="/tiendas/general">Tiendas</Link>
+                    <Link to="/productos">Productos</Link>
                 </div>
             )}
 

@@ -1,0 +1,89 @@
+.editar-container {
+    min-height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: #f5f5f5;
+}
+
+.editar-card {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    border-radius: 15px;
+    padding: 35px;
+    box-shadow: 0 8px 25px rgba(0,0,0,.15);
+}
+.edicion select,
+.edicion textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    resize: vertical;
+    outline: none;
+    transition: .2s;
+}
+
+    .edicion select:focus,
+    .edicion textarea:focus {
+        border-color: #5B3721;
+        box-shadow: 0 0 5px rgba(91,55,33,.3);
+    }
+    .editar-card h1 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #432918;
+    }
+
+.edicion {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+    .edicion div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .edicion label {
+        margin-bottom: 6px;
+        font-weight: 600;
+        color: #555;
+    }
+
+    .edicion input {
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 15px;
+        transition: .2s;
+    }
+
+        .edicion input:focus {
+            outline: none;
+            border-color: #432918;
+            box-shadow: 0 0 5px rgba(67,41,24,.3);
+        }
+
+    .edicion button {
+        margin-top: 15px;
+        padding: 14px;
+        border: none;
+        border-radius: 10px;
+        background: #432918;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: .25s;
+    }
+
+        .edicion button:hover {
+            background: #5a3822;
+            transform: translateY(-2px);
+        }

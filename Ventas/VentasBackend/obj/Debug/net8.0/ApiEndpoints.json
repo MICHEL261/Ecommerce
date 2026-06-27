@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "VentasBackend.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Ventas.Shared.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VentasBackend.Controllers.CarritoController",
     "Method": "GetAsync",
     "RelativePath": "api/Carrito",
@@ -95,6 +111,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "VentasBackend.Controllers.CarritoController",
+    "Method": "CrearOrden",
+    "RelativePath": "api/Carrito/crear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Ventas.Shared.DTO.CrearOrdenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VentasBackend.Controllers.CarritoController",
+    "Method": "ActualizarCantidad",
+    "RelativePath": "api/Carrito/item/{itemId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "Ventas.Shared.DTO.ActualizarCantidadDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VentasBackend.Controllers.CarritoController",
+    "Method": "EliminarProducto",
+    "RelativePath": "api/Carrito/item/{itemId}/carrito/{carritoId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "itemId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "carritoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "VentasBackend.Controllers.CategoriasController",
     "Method": "GetAsync",
     "RelativePath": "api/Categorias",
@@ -179,10 +253,10 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "VentasBackend.Controllers.GenericController\u00601[[Ventas.Shared.Entidades.Cliente, Ventas.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-    "Method": "PostAsync",
+    "ContainingType": "VentasBackend.Controllers.ClientesController",
+    "Method": "PutAsync",
     "RelativePath": "api/Clientes",
-    "HttpMethod": "POST",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
@@ -196,9 +270,9 @@
   },
   {
     "ContainingType": "VentasBackend.Controllers.GenericController\u00601[[Ventas.Shared.Entidades.Cliente, Ventas.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-    "Method": "PutAsync",
+    "Method": "PostAsync",
     "RelativePath": "api/Clientes",
-    "HttpMethod": "PUT",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [

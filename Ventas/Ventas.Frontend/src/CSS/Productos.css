@@ -1,10 +1,10 @@
-.clientes-container1 {
-    width: 90%;
-    max-width: 1400px;
+.clientes-container {
+    width: 95%;
+    max-width: 1700px;
     margin: 40px auto;
 }
 
-.clientes-header1 {
+.clientes-header {
     display: flex;
     padding-top: 80px;
     justify-content: space-between;
@@ -12,7 +12,7 @@
     margin-bottom: 30px;
 }
 
-    .clientes-header1 h1 {
+    .clientes-header h1 {
         font-size: 42px;
         color: #4B2E1E;
         margin: 0;
@@ -36,14 +36,13 @@
         background: #744629;
     }
 
-.tabla-clientes1 {
+.tabla-clientes {
     background: white;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 8px 25px rgba(0,0,0,.15);
 }
-
-.tabla-header1 {
+.tabla-header {
     display: grid;
     grid-template-columns: 80px 1fr 1fr 2fr 1fr 170px;
     background: #e9bca3;
@@ -51,33 +50,63 @@
     font-weight: bold;
     padding: 18px;
 }
+/* --------- TABLA --------- */
 
-.fila-cliente1 {
+.tabla-header,
+.fila-cliente {
     display: grid;
-    grid-template-columns: 80px 1fr 1fr 2fr 1fr 170px;
+    grid-template-columns: 60px /* ID */
+    180px /* Nombre */
+    220px /* Email */
+    130px /* Teléfono */
+    180px /* Dirección */
+    220px /* Descripción */
+    120px /* Imagen */
+    140px /* Categoría */
+    120px; /* Acciones */
+
     align-items: center;
+    gap: 15px;
+}
+
+
+
+.fila-cliente {
     padding: 18px;
     border-bottom: 1px solid #ececec;
     transition: .2s;
 }
 
-    .fila-cliente1:hover {
+    .fila-cliente:hover {
         background: #faf7f5;
     }
 
-    .fila-cliente1:last-child {
+    .fila-cliente:last-child {
         border-bottom: none;
     }
 
-    .fila-cliente1 span {
-        font-size: 17px;
+    .fila-cliente span {
+        font-size: 16px;
         color: #444;
+        word-break: break-word;
     }
+
+/* --------- IMAGEN --------- */
+
+.imagen-tienda {
+    width: 90px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+/* --------- ACCIONES --------- */
 
 .acciones {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .btn-icon {
@@ -111,7 +140,7 @@
         background: #c13e3a;
     }
 
-.sin-datos1 {
+.sin-datos {
     padding: 50px;
     text-align: center;
     font-size: 20px;

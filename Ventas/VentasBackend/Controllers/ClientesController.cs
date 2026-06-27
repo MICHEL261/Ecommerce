@@ -40,15 +40,6 @@ public class ClientesController : GenericController<Cliente>
         return NotFound(response.Message);
     }
 
-    [HttpPut]
-    public virtual async Task<IActionResult> PutAsync(Cliente model)
-    {
-        var action = await _clientesUnitOfWork.AddAsync(model);
-        if (action.WasSuccess)
-        {
-            return Ok(action.Result);
-        }
-        return BadRequest(action.Message);
-    }
+   
 }
 

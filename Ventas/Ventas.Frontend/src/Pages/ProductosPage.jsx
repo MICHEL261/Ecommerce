@@ -1,92 +1,94 @@
 import { useEffect, useState } from "react";
-import { getClientes } from "../services/clientesApi";
+
 import HomePageComponent from "../components/HomePageComponent";
-import "../CSS/Clientes.css";
+import "../CSS/Productos.css";
 
 import { LuPencil, LuTrash2 } from "react-icons/lu";
 import { FaPlus } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import { getProductos } from "../services/ProductosApi";
 
-function ClientesPage() {
+function ProductosPage () {
     const navigate = useNavigate();
 
-    const [clientes, setClientes] = useState([]);
+    const [productos, setProductos] = useState([]);
 
     useEffect(() => {
-        const cargarClientes = async () => {
+        const cargarProductos = async () => {
             try {
-                const data = await getClientes();
-                setClientes(data);
+                const data = await getProductos();
+                setProductos(data);
             } catch (error) {
-                console.log(error);
+                console.error("Error cargando productos:", error);
             }
         };
 
-        cargarClientes();
+        cargarProductos();
     }, []);
 
     return (
         <>
             <HomePageComponent />
 
-            <div className="clientes-container1">
+            <div className="clientes-container">
 
-                <div className="clientes-header1">
+                <div className="clientes-header">
 
-                    <h1>Clientes</h1>
+                    <h1>Tiendas</h1>
 
                     <button
                         className="btn-agregar"
-                        onClick={() => navigate("/clientes/crear")}
+                        onClick={() => navigate("/tiendas/crear")}
                     >
                         <FaPlus />
-                        Agregar cliente
+                        Agregar tienda
                     </button>
 
                 </div>
 
-                <div className="tabla-clientes1">
+                <div className="tabla-clientes">
 
-                    <div className="tabla-header1">
+                    <div className="tabla-header">
                         <span>ID</span>
                         <span>Nombre</span>
-                        <span>Apellido</span>
-                        <span>Correo</span>
-                        <span>Teléfono</span>
+                        <span>Precio</span>
+                        <span>Tienda</span>
+                        <span>Descripción</span>
+                  
                         <span>Acciones</span>
                     </div>
 
-                    {clientes.length === 0 ? (
+                    {productos.length === 0 ? (
 
-                        <div className="sin-datos1">
-                            No hay clientes registrados.
+                        <div className="sin-datos">
+                            No hay productos registrados.
                         </div>
 
                     ) : (
 
-                        clientes.map((cliente) => (
+                        productos.map((producto) => (
 
                             <div
-                                key={cliente.id}
-                                className="fila-cliente1"
+                                key={producto.id}
+                                className="fila-cliente"
                             >
 
-                                <span>{cliente.id}</span>
+                                <span>{producto.id}</span>
 
-                                <span>{cliente.nombre}</span>
+                                <span>{producto.nombre}</span>
 
-                                <span>{cliente.apellido}</span>
+                                <span>{producto.precio}</span>
+                               
 
-                                <span>{cliente.email}</span>
+                                <span>{producto.descripcion}</span>
 
-                                <span>{cliente.telefono}</span>
 
                                 <div className="acciones">
 
                                     <button
                                         className="btn-icon editar"
                                         onClick={() =>
-                                            navigate(`/clientes/editar/${cliente.id}`)
+                                            navigate(`/productos/editar/${producto.id}`)
                                         }
                                     >
                                         <LuPencil />
@@ -111,4 +113,4 @@ function ClientesPage() {
     );
 }
 
-export default ClientesPage;
+export default ProductosPage;

@@ -25,7 +25,10 @@ function App() {
         <>
             <HomePageComponent />
             <div className="general">
-            <h1>Bienvenido, {nombre}!</h1>
+                <div className="titulo5">
+                    <h1 style={{ color: "white" }}>Bienvenido, {nombre}!</h1>
+                </div>
+
             <div className="usuario-container">
                
               
@@ -44,13 +47,42 @@ function App() {
                         </button>
                 </div>
                     <div className="derecha">
-                        <h2>Mi perfil</h2>
-                        <div className="perfil">
-                        <p className="Tarjeta"><strong>Nombre:</strong> {nombre}</p>
-                        <p className="Tarjeta"><strong>Apellido:</strong> {Apellido}</p>
-                        <p className="Tarjeta"><strong>Email:</strong> {email}</p>
-                        <p className="Tarjeta"><strong>Teléfono:</strong> {telefono}</p>
-                            <p className="Tarjeta"><strong>Dirección:</strong> {direccion}</p>
+                        <div className="perfil-container">
+                            <h2>Mi perfil</h2>
+
+                            <div className="perfil-grid">
+                                <div className="campo">
+                                    <label>Nombre</label>
+                                    <input type="text" value={nombre}  />
+                                </div>
+
+                                <div className="campo">
+                                    <label>Apellido</label>
+                                    <input type="text" value={Apellido}  />
+                                </div>
+
+                                <div className="campo">
+                                    <label>Email</label>
+                                    <input type="email" value={email}  />
+                                </div>
+
+                                <div className="campo">
+                                    <label>Teléfono</label>
+                                    <input type="text" value={telefono} />
+                                </div>
+
+                                <div className="campo">
+                                    <label>Dirección</label>
+                                    <input type="text" value={direccion}  />
+                                </div>
+                            </div>
+
+                            <div className="acciones">
+                                <button className="guardar">Guardar cambios</button>
+                                <button className="cancelar">Cancelar</button>
+                            </div>
+                      
+
                         </div>
                     </div>
             

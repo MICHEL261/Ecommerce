@@ -11,3 +11,7 @@ export const getTienda = async (id) => {
     const response = await axios.get(`${API_URL}/${id}`);
     return response.data;
 };
+export const createTienda = async (tienda) => {
+    const response = await axios.post(API_URL, tienda);
+    return response.data;
+};

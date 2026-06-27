@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VentasBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0f486a47085c3ef63225bf2095389165f4ec416")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c404edd06983462d2d7eae089c029434ed82755")]
 [assembly: System.Reflection.AssemblyProductAttribute("VentasBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VentasBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
