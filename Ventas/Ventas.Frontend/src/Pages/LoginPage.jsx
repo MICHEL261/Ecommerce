@@ -17,23 +17,32 @@ function LoginPage() {
     const iniciarSesion = async (e) => {
         e.preventDefault();
 
-
         try {
             const data = await login(email, password);
 
             localStorage.setItem("token", data.token);
-            localStorage.setItem("clienteId", data.clienteId);
+            localStorage.setItem("usuarioId", data.usuarioId);
+            localStorage.setItem("rol", data.rol);
+
+            if (data.clienteId) {
+                localStorage.setItem("clienteId", data.clienteId);
+                localStorage.setItem("carritoId", data.carritoId);
+                localStorage.setItem("apellido", data.apellido);
+                localStorage.setItem("telefono", data.telefono);
+                localStorage.setItem("direccion", data.direccion);
+            }
+
+            if (data.tiendaId) {
+                localStorage.setItem("tiendaId", data.tiendaId);
+            }
+
             localStorage.setItem("nombre", data.nombre);
-            localStorage.setItem("carritoId", data.carritoId);
-            localStorage.setItem("apellido", data.apellido);
             localStorage.setItem("email", data.email);
-            localStorage.setItem("telefono", data.telefono);
-            localStorage.setItem("direccion", data.direccion);
 
             alert(`Bienvenido ${data.nombre}`);
-            const data2 = await login(email, password);
 
-            console.log("LOGIN:", data2);
+            console.log("LOGIN:", data);
+
             navigate("/");
         }
         catch (error) {
@@ -41,7 +50,6 @@ function LoginPage() {
             alert("Correo o contraseña incorrectos");
         }
     };
-
     return (
         <>
             <HomePageComponent />

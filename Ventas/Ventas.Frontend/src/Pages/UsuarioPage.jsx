@@ -1,93 +1,120 @@
-
 import HomePageComponent from "../components/HomePageComponent";
 import "../CSS/Usuarios.css";
 
+import {
+    FaUser,
+    FaShoppingBag,
+    FaHeart,
+    FaQuestionCircle,
+    FaSignOutAlt
+} from "react-icons/fa";
 
 function App() {
 
-
-   
     const nombre = localStorage.getItem("nombre");
-    const Apellido = localStorage.getItem("apellido");
+    const apellido = localStorage.getItem("apellido");
     const email = localStorage.getItem("email");
     const telefono = localStorage.getItem("telefono");
     const direccion = localStorage.getItem("direccion");
-    const cerrarSesion = () => {
-        localStorage.removeItem("token");
-        localStorage.removeItem("clienteId");
-        localStorage.removeItem("nombre");
-        localStorage.removeItem("carritoId");
 
+    const cerrarSesion = () => {
+        localStorage.clear();
         window.location.href = "/";
     };
 
     return (
         <>
             <HomePageComponent />
-            <div className="general">
-                <div className="titulo5">
-                    <h1 style={{ color: "white" }}>Bienvenido, {nombre}!</h1>
-                </div>
 
-            <div className="usuario-container">
-               
-              
-                <div className="izquierda">
-                <button className="btn-Usuarios" onClick={cerrarSesion}>
-                Desloguearse
-                </button>
-                <button className="btn-Usuarios" onClick={cerrarSesion}>
-                   Mis pedidos
+            <div className="usuario-page">
+
+            
+                <div className="usuario-layout">
+
+                    {/* MENU IZQUIERDO */}
+
+                    <aside className="sidebar">
+
+                        <div className="avatar">
+                            <FaUser />
+                        </div>
+
+                        <h2>{nombre} {apellido}</h2>
+
+                        <button>
+                            <FaShoppingBag />
+                            Mis pedidos
                         </button>
-                        <button className="btn-Usuarios" onClick={cerrarSesion}>
-                            Centro de ayudas
+
+                        <button>
+                            <FaHeart />
+                            Favoritos
                         </button>
-                        <button className="btn-Usuarios" onClick={cerrarSesion}>
-                           Favoritos
+
+                        <button>
+                            <FaQuestionCircle />
+                            Centro de ayuda
                         </button>
-                </div>
-                    <div className="derecha">
-                        <div className="perfil-container">
-                            <h2>Mi perfil</h2>
 
-                            <div className="perfil-grid">
-                                <div className="campo">
-                                    <label>Nombre</label>
-                                    <input type="text" value={nombre}  />
-                                </div>
+                        <button
+                            className="logout"
+                            onClick={cerrarSesion}
+                        >
+                            <FaSignOutAlt />
+                            Cerrar sesión
+                        </button>
 
-                                <div className="campo">
-                                    <label>Apellido</label>
-                                    <input type="text" value={Apellido}  />
-                                </div>
+                    </aside>
 
-                                <div className="campo">
-                                    <label>Email</label>
-                                    <input type="email" value={email}  />
-                                </div>
+                    {/* PERFIL */}
 
-                                <div className="campo">
-                                    <label>Teléfono</label>
-                                    <input type="text" value={telefono} />
-                                </div>
+                    <section className="perfil-card">
 
-                                <div className="campo">
-                                    <label>Dirección</label>
-                                    <input type="text" value={direccion}  />
-                                </div>
+                        <h2>Mi Perfil</h2>
+
+                        <div className="perfil-grid">
+
+                            <div className="campo">
+                                <label>Nombre</label>
+                                <input value={nombre} readOnly />
                             </div>
 
-                            <div className="acciones">
-                                <button className="guardar">Guardar cambios</button>
-                                <button className="cancelar">Cancelar</button>
+                            <div className="campo">
+                                <label>Apellido</label>
+                                <input value={apellido} readOnly />
                             </div>
-                      
+
+                            <div className="campo">
+                                <label>Correo</label>
+                                <input value={email} readOnly />
+                            </div>
+
+                            <div className="campo">
+                                <label>Teléfono</label>
+                                <input value={telefono} readOnly />
+                            </div>
+
+                            <div className="campo campo-grande">
+                                <label>Dirección</label>
+                                <input value={direccion} readOnly />
+                            </div>
 
                         </div>
-                    </div>
-            
+
+                        <div className="acciones">
+
+                            <button className="guardar">
+                                Editar Perfil
+                            </button>
+
+                        </div>
+
+                    </section>
+
                 </div>
+
             </div>
+
         </>
     );
 }

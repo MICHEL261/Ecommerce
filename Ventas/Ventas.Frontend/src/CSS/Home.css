@@ -201,16 +201,61 @@ h1, h2 {
     height: 100px;
 }
 .menu {
-    position: fixed;
-    top: 70px;
-    left: 0;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    width: 260px;
+    background: white;
+    border-radius: 18px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    background: white;
-    width: 200px;
-    height: calc(100vh - 70px);
-    padding: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    gap: 10px;
+    box-shadow: 0 15px 35px rgba(0,0,0,.18);
+    animation: menu .25s ease;
+    z-index: 1000;
+}
+
+@keyframes menu {
+
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.menu h3 {
+    color: #5B3721;
+    margin-bottom: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    color: #444;
+    font-size: 17px;
+    padding: 14px 18px;
+    border-radius: 12px;
+    transition: .25s;
+}
+
+    .menu a:hover {
+        background: #e9bca3;
+        color: #5B3721;
+        transform: translateX(8px);
+    }
+
+.menu svg {
+    font-size: 20px;
 }
 .text{
 

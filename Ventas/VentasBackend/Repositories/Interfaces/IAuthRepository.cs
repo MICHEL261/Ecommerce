@@ -4,5 +4,5 @@ namespace VentasBackend.Repositories.Interfaces;
 
 public interface IAuthRepository
 {
-    Task<Cliente?> LoginAsync(string email, string password);
+    Task<Usuario?> LoginAsync(string email, string password);
 }

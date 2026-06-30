@@ -14,12 +14,21 @@ public class AuthRepository : IAuthRepository
         _context = context;
     }
 
-    public async Task<Cliente?> LoginAsync(string email, string password)
+    public async Task<Usuario?> LoginAsync(string email, string password)
     {
-        return await _context.Clientes
-            .Include(x => x.Carrito)
-            .FirstOrDefaultAsync(x =>
-                x.Email == email &&
-                x.Password == password);
+        var usuario = await _context.Usuarios
+            .Include(u => u.Rol)
+            .Include(u => u.Cliente)
+                .ThenInclude(c => c.Carrito)
+            .Include(u => u.Tienda)
+            .FirstOrDefaultAsync(u => u.Email == email);
+
+        if (usuario == null)
+            return null;
+
+        if (usuario.Password != password)
+            return null;
+
+        return usuario;
     }
 }

@@ -4,7 +4,6 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Ventas.Shared.DTO;
-
 using VentasBackend.UnitOfWork.Interfaces;
 
 namespace VentasBackend.Controllers;
@@ -27,29 +26,23 @@ public class AuthController : ControllerBase
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginDTO model)
     {
-        var cliente = await _authUnitOfWork.LoginAsync(
+        var usuario = await _authUnitOfWork.LoginAsync(
             model.Email,
             model.Password);
 
-        if (cliente == null)
+        if (usuario == null)
         {
             return Unauthorized("Credenciales incorrectas");
         }
 
         var key = Encoding.UTF8.GetBytes(
-            _configuration["jwtKey"]!
-        );
+            _configuration["jwtKey"]!);
 
         var claims = new[]
         {
-            new Claim(ClaimTypes.NameIdentifier,
-                cliente.Id.ToString()),
-
-            new Claim(ClaimTypes.Email,
-                cliente.Email),
-
-            new Claim(ClaimTypes.Name,
-                cliente.Nombre)
+            new Claim(ClaimTypes.NameIdentifier, usuario.Id.ToString()),
+            new Claim(ClaimTypes.Email, usuario.Email),
+            new Claim(ClaimTypes.Role, usuario.Rol.Nombre)
         };
 
         var credentials = new SigningCredentials(
@@ -59,8 +52,7 @@ public class AuthController : ControllerBase
         var token = new JwtSecurityToken(
             claims: claims,
             expires: DateTime.UtcNow.AddHours(2),
-            signingCredentials: credentials
-        );
+            signingCredentials: credentials);
 
         var tokenString = new JwtSecurityTokenHandler()
             .WriteToken(token);
@@ -68,10 +60,28 @@ public class AuthController : ControllerBase
         return Ok(new
         {
             token = tokenString,
-            clienteId = cliente.Id,
-            carritoId = cliente.Carrito?.Id,
-            nombre = cliente.Nombre,
-            email = cliente.Email
+
+            usuarioId = usuario.Id,
+
+            rol = usuario.Rol.Nombre,
+
+            clienteId = usuario.Cliente?.Id,
+
+            carritoId = usuario.Cliente?.Carrito?.Id,
+
+            tiendaId = usuario.Tienda?.Id,
+
+            nombre = usuario.Cliente != null
+                ? usuario.Cliente.Nombre
+                : usuario.Tienda?.Nombre,
+
+            apellido = usuario.Cliente?.Apellido,
+
+            email = usuario.Email,
+
+            telefono = usuario.Cliente?.Telefono ?? usuario.Tienda?.Telefono,
+
+            direccion = usuario.Cliente?.Direccion ?? usuario.Tienda?.Direccion
         });
     }
 }

@@ -15,9 +15,7 @@ public class Tienda
     public string Nombre { get; set; }
     [Required(ErrorMessage = "El campo {0} es obligatorio.")]
     [MaxLength(100, ErrorMessage = "El campo {0} no puede tener más de {1} caracteres.")]
-    public string Email { get; set; }
-    [Required(ErrorMessage = "El campo {0} es obligatorio.")]
-    [MaxLength(100, ErrorMessage = "El campo {0} no puede tener más de {1} caracteres.")]
+   
     public string Telefono { get; set; }
     [Required(ErrorMessage = "El campo {0} es obligatorio.")]
     [MaxLength(100, ErrorMessage = "El campo {0} no puede tener más de {1} caracteres.")]
@@ -30,4 +28,7 @@ public class Tienda
     public int CategoriaId { get; set; }//muchos
 
     public Categoria? Categorias { get; set; } //muchos
+    public int UsuarioId { get; set; }
+
+    public Usuario Usuario { get; set; }
 }

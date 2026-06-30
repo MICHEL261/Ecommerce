@@ -23,7 +23,7 @@ public class ClientesRepository : GenericRepository<Cliente>, IClientesRepositor
 
     public override async Task<ActionResponse<IEnumerable<Cliente>>> GetAsync()
     {
-        var Clientes = await _context.Clientes.Include(c => c.Ordenes).Include(c => c.Carrito).ThenInclude(c => c.Items).ToListAsync();
+        var Clientes = await _context.Clientes.Include(c => c.Ordenes).Include(c=> c.Usuario).ThenInclude(c=>c.Rol).Include(c => c.Carrito).ThenInclude(c => c.Items).ToListAsync();
         return new ActionResponse<IEnumerable<Cliente>>
         {
             WasSuccess = true,
@@ -34,7 +34,7 @@ public class ClientesRepository : GenericRepository<Cliente>, IClientesRepositor
     public override async Task<ActionResponse<Cliente>> GetAsync(int id)
     {
         var Cliente = await _context.Clientes
-             .Include(c => c.Ordenes)
+             .Include(c => c.Ordenes).Include(c => c.Usuario).ThenInclude(c => c.Rol)
              .FirstOrDefaultAsync(c => c.Id == id);
 
         if (Cliente == null)

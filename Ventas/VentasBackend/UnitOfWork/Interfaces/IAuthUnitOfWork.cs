@@ -4,5 +4,5 @@ namespace VentasBackend.UnitOfWork.Interfaces;
 
 public interface IAuthUnitOfWork
 {
-    Task<Cliente?> LoginAsync(string email, string password);
+    Task<Usuario?> LoginAsync(string email, string password);
 }

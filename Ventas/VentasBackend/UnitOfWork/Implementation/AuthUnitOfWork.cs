@@ -13,7 +13,7 @@ public class AuthUnitOfWork : IAuthUnitOfWork
         _repository = repository;
     }
 
-    public async Task<Cliente?> LoginAsync(string email, string password)
+    public async Task<Usuario?> LoginAsync(string email, string password)
     {
         return await _repository.LoginAsync(email, password);
     }

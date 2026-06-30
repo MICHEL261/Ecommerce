@@ -2,6 +2,15 @@ import { Link } from "react-router-dom";
 import "../CSS/Home.css";
 import logo from "../assets/Logo.png";
 import persona from "../assets/persona.png";
+import {
+    FaHome,
+    FaUsers,
+    FaStore,
+    FaBoxOpen,
+    FaUser,
+    FaHeart,
+    FaCog
+} from "react-icons/fa";
 
 import menuhamburguesa from "../assets/MenuHamburguesa.png";
 import { FaShoppingCart } from "react-icons/fa";
@@ -27,10 +36,44 @@ function HomePageComponent() {
 
             {menuAbierto && (
                 <div className="menu">
-                    <Link to="/clientes">Clientes</Link>
-                 
-                    <Link to="/tiendas/general">Tiendas</Link>
-                    <Link to="/productos">Productos</Link>
+
+                    <h3>MENÚ</h3>
+
+                    <Link to="/">
+                        <FaHome />
+                        Inicio
+                    </Link>
+
+                    <Link to="/clientes">
+                        <FaUsers />
+                        Clientes
+                    </Link>
+
+                    <Link to="/tiendas/general">
+                        <FaStore />
+                        Tiendas
+                    </Link>
+
+                    <Link to="/productos">
+                        <FaBoxOpen />
+                        Productos
+                    </Link>
+
+                    <Link to="/usuario">
+                        <FaUser />
+                        Mi perfil
+                    </Link>
+
+                    <Link to="/favoritos">
+                        <FaHeart />
+                        Favoritos
+                    </Link>
+
+                    <Link to="/configuracion">
+                        <FaCog />
+                        Configuración
+                    </Link>
+
                 </div>
             )}
 
