@@ -5,17 +5,35 @@
     width: 100%;
     height: 70px;
     padding: 0 20px;
-    background-color: #432918;
+    background: linear-gradient(90deg, #432918, #281104);
     position: fixed;
     top: 0;
     left: 0;
+
     z-index: 1000;
 }
+.logo {
+    font-size: 20px;
+    color: white;
+}
+.bi {
+    font-size: 30px; /* aumenta el tamaño */
+    color: white;
+}
+
+    .bi:hover {
+        color: #f0c674; /* color dorado al pasar el mouse */
+        transform: scale(1.1);
+        transition: all 0.2s ease;
+    }
+
+
 .usuario-info {
     display: flex;
+    gap: 40px;
+    height: 100%;
     align-items: center;
-    gap: 10px;
-    height: 20px;
+   
     width: 20px;
 }
 
@@ -23,6 +41,8 @@
     color: white;
     font-size: 16px;
     font-weight: bold;
+    
+   
 }
 .btn-logout {
     background-color: #e74c3c;
@@ -127,19 +147,21 @@ body {
     width: auto;
 }
 .tiendas-grid {
+    width: 95%;
+    margin: auto;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap: 35px;
+    padding: 20px 0 50px;
 }
 
 .tienda-card {
     background: white;
-    border-radius: 10px;
-    overflow: hidden;
-    text-align: center;
-    width: 100%;
-    max-width: 250px;
-    min-width: 250px;
+    border-radius: 18px;
+    padding: 20px;
+    max-width: 320px;
+    min-width: 320px;
+    transition: .3s;
 }
     .tienda-card:hover {
         border: 2px solid #000000;
@@ -147,9 +169,11 @@ body {
     }
 .tienda-img {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: 220px;
+    object-fit: contain;
+ 
     display: block;
+    border-radius: 10px;
 }
 h1, h2 {
     text-align: center;
@@ -199,6 +223,8 @@ h1, h2 {
     justify-content: center;
     justify-items: center;
     height: 100px;
+    border-radius: 10px;
+
 }
 .menu {
     position: absolute;
@@ -259,4 +285,48 @@ h1, h2 {
 }
 .text{
 
+}
+.tienda-nombre {
+    font-size: 30px;
+    font-weight: 700;
+    color: #432918;
+    margin-top: 18px;
+}
+.tienda-link {
+    text-decoration: none;
+    color: inherit;
+}
+.banner-tiendas {
+    width: 94%;
+    margin: 95px auto 40px;
+    background: linear-gradient(135deg,#ffffff,#fff7f2);
+    border-radius: 24px;
+    padding: 35px 50px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+    .banner-tiendas h1 {
+        margin: 0;
+        color: #432918;
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .banner-tiendas p {
+        margin-top: 12px;
+        font-size: 24px;
+        color: #6f5a4d;
+        max-width: 900px;
+        line-height: 1.5;
+    }
+.tienda-categoria {
+    margin-top: 8px;
+    color: #8a8a8a;
+    font-size: 15px;
 }

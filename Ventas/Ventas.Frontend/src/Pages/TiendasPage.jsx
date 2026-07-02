@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 import "../CSS/Home.css";
@@ -6,7 +6,7 @@ import { getTiendas } from "../services/tiendasApi";
 import HomePageComponent from "../components/HomePageComponent";
 
 function TiendasPage() {
-    const { id } = useParams();
+    
     const [tiendas, setTiendas] = useState([]);
 
     useEffect(() => {
@@ -24,14 +24,19 @@ function TiendasPage() {
 
     return (
         <>
+
             <HomePageComponent />
 
-            <div>
-                <h1>Tienda {id}</h1>
-            </div>
+         
+            <div className="banner-tiendas">
 
-            <div className="titulo">
-                <h2>🍔 Descubre sabores únicos y encuentra tu próxima comida favorita. Explora nuestras tiendas disponibles y ordena en minutos.</h2>
+                <h1>🍔 ¿Qué vas a pedir hoy?</h1>
+
+                <p>
+                    Descubre restaurantes, cafeterías, supermercados y farmacias
+                    cerca de ti.
+                </p>
+
             </div>
             <div className="tiendas-grid">
                 {tiendas.map((tienda) => (
@@ -46,7 +51,13 @@ function TiendasPage() {
                                 alt={tienda.nombre}
                                 className="tienda-img"
                             />
-                            <p>{tienda.nombre}</p>
+                            <h2 className="tienda-nombre">
+                                {tienda.nombre}
+                            </h2>
+
+                            <p className="tienda-categoria">
+                                Restaurante
+                            </p>
                         </div>
                     </Link>
                 ))}

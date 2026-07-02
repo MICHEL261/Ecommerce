@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import "../CSS/Home.css";
 import logo from "../assets/Logo.png";
-import persona from "../assets/persona.png";
+
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 import {
     FaHome,
     FaUsers,
@@ -13,7 +15,7 @@ import {
 } from "react-icons/fa";
 
 import menuhamburguesa from "../assets/MenuHamburguesa.png";
-import { FaShoppingCart } from "react-icons/fa";
+
 
 import { useState } from "react";
 
@@ -87,44 +89,28 @@ function HomePageComponent() {
                 placeholder="Buscar..."
             />
 
-            <Link to="/clientes">
-                <button>Ir a Clientes</button>
-            </Link>
-
+           
         
 
-            <Link to="/tiendas">
-                <button>Ir a Tiendas</button>
-            </Link>
-
-            <Link to="/carrito">
-                <FaShoppingCart size={28} color="white" />
-            </Link>
+         
 
             <div className="usuario-info">
 
-                <Link to={nombre ? "/usuario" : "/login"}>
-                    <img
-                        src={persona}
-                        alt="usuario"
-                        className="logo"
-                    />
+                <Link to="/tiendas">
+                    <button>Ir a Tiendas</button>
                 </Link>
 
-                {nombre ? (
-                    <>
-                        <span className="nombre-usuario">
-                            Hola, {nombre}
-                        </span>
 
+                <Link to={nombre ? "/usuario" : "/login"}>
+                    <i className="bi bi-person-circle logo"></i>
+                </Link>
+
+                
                        
-                    </>
-                ) : (
-                    <Link to="/login">
-                        Iniciar sesión
-                    </Link>
-                )}
-
+                        <Link to="/carrito" className="carrito-link">
+                            <i className="bi bi-cart"></i>
+                        </Link>
+                   
             </div>
         </nav>
     );

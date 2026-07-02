@@ -1,29 +1,30 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 import {
     getCarrito,
     actualizarCantidad,
     crearOrden,
- 
 } from "../services/carritoApi";
-
 
 import HomePageComponent from "../components/HomePageComponent";
 import "../CSS/carrito.css";
 
 function CarritoPage() {
-   
 
     const [carrito, setCarrito] = useState(null);
+
+    const navigate = useNavigate();
+
     const finalizarCompra = async () => {
 
-        const clienteId =
-            localStorage.getItem("clienteId");
+        const clienteId = localStorage.getItem("clienteId");
 
         try {
 
             await crearOrden(clienteId);
 
-            alert("Orden creada");
+            alert("Orden creada correctamente");
 
         } catch (error) {
 
@@ -32,68 +33,55 @@ function CarritoPage() {
         }
     };
 
-    const actualizarCantidadItem = async (
-        itemId,
-        nuevaCantidad
-    ) => {
+    const actualizarCantidadItem = async (itemId, cantidad) => {
 
-        if (nuevaCantidad < 1) return;
+        if (cantidad < 1) return;
 
         try {
 
-            await actualizarCantidad(
-                itemId,
-                nuevaCantidad
-            );
+            await actualizarCantidad(itemId, cantidad);
 
-            const carritoId =
-                localStorage.getItem("carritoId");
+            const carritoId = localStorage.getItem("carritoId");
 
-            const data =
-                await getCarrito(carritoId);
-            console.log(data);
+            const data = await getCarrito(carritoId);
 
             setCarrito(data);
 
         } catch (error) {
+
             console.error(error);
-            alert("Error actualizando cantidad");
+
         }
 
     };
 
     useEffect(() => {
 
+        const cargar = async () => {
 
-        const cargarCarrito = async () => {
+            const carritoId = localStorage.getItem("carritoId");
 
-            try {
+            const data = await getCarrito(carritoId);
+            console.log(data.items);
 
-                const carritoId =
-                    localStorage.getItem("carritoId");
+            setCarrito(data);
 
-                const data =
-                    await getCarrito(carritoId);
-
-                setCarrito(data);
-
-            } catch (error) {
-                console.error(error);
-            }
         };
 
-        cargarCarrito();
+        cargar();
 
     }, []);
 
     if (!carrito) {
-        return <p>Cargando carrito...</p>;
+
+        return <p>Cargando...</p>;
+
     }
 
     const total =
         carrito.items?.reduce(
-            (acum, item) =>
-                acum +
+            (a, item) =>
+                a +
                 item.producto.precio *
                 item.cantidad,
             0
@@ -103,49 +91,125 @@ function CarritoPage() {
         <>
             <HomePageComponent />
 
-            <h1 className="text">
-                Mi carrito
-            </h1>
+            <div className="titulo-carrito">
+
+                <h1>🛒 Mi carrito</h1>
+
+                <p>
+                    {carrito.items.length} productos agregados
+                </p>
+
+            </div>
 
             <div className="containerprincipal">
-
-                <div className="principal">
-                    <h2>Mi carrito</h2>
-                </div>
 
                 <div className="container3">
 
                     <div className="Total">
-                        <h2>Resumen</h2>
-                        <p>Total: ${total}</p>
-                        <button onClick={finalizarCompra}>
+
+                        <h2>Resumen del pedido</h2>
+
+                        <div className="linea-total">
+
+                            <span>Productos</span>
+
+                            <span>{carrito.items.length}</span>
+
+                        </div>
+
+                        <div className="linea-total">
+
+                            <span>Subtotal</span>
+
+                            <span>${total.toFixed(2)}</span>
+
+                        </div>
+
+                        <div className="linea-total">
+
+                            <span>Envío</span>
+
+                            <span className="gratis">
+                                Gratis
+                            </span>
+
+                        </div>
+
+                        <hr />
+
+                        <div className="linea-final">
+
+                            <span>Total</span>
+
+                            <span>${total.toFixed(2)}</span>
+
+                        </div>
+
+                        <div className="beneficios">
+
+                            <p>✔ Pago seguro</p>
+
+                            <p>✔ Compra protegida</p>
+
+                            <p>✔ Entrega rápida</p>
+
+                        </div>
+
+                        <button
+                            onClick={finalizarCompra}
+                        >
                             Finalizar compra
                         </button>
+
+                        <button
+                            className="seguir"
+                            onClick={() => navigate("/")}
+                        >
+                            Seguir comprando
+                        </button>
+
                     </div>
 
                     <div className="Elemento">
 
                         <div className="titulos-columnas">
+
                             <p>Imagen</p>
+
                             <p>Producto</p>
+
                             <p>Cantidad</p>
+
                             <p>Precio</p>
-                         
+
                         </div>
 
-                        {carrito.items?.map(item => (
+                        {carrito.items.map(item => (
 
                             <div
                                 key={item.id}
                                 className="item"
                             >
-                                <img
-                                    src={item.producto.imagen}
-                                    alt={item.producto.nombre}
-                                />
+
+                                <div>
+
+                                    <img
+                                        src={item.producto.imagen}
+                                        alt=""
+                                    />
+
+                                    <p className="subtotal">
+                                        Subtotal:
+                                        $
+                                        {(item.producto.precio * item.cantidad).toFixed(2)}
+                                    </p>
+
+                                </div>
 
                                 <p>
+
                                     {item.producto.nombre}
+
                                 </p>
 
                                 <div className="cantidad-control">
@@ -161,9 +225,11 @@ function CarritoPage() {
                                         -
                                     </button>
 
-                                    <p>
+                                    <span>
+
                                         {item.cantidad}
-                                    </p>
+
+                                    </span>
 
                                     <button
                                         onClick={() =>
@@ -173,20 +239,17 @@ function CarritoPage() {
                                             )
                                         }
                                     >
-                                        
+                                        +
+
                                     </button>
 
                                 </div>
 
                                 <p>
-                                    $
-                                    {item.producto.precio}
+
+                                    ${item.producto.precio}
+
                                 </p>
-                                <p>
-                                    Subtotal: $
-                                    {(item.producto.precio * item.cantidad).toFixed(2)}
-                                </p>
-                             
 
                             </div>
 
@@ -197,6 +260,7 @@ function CarritoPage() {
                 </div>
 
             </div>
+
         </>
     );
 }

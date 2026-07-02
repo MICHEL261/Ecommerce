@@ -73,60 +73,89 @@ function DetalleTiendaPage() {
                     </div>
 
                     <div className="texto">
+
                         <h1>{tienda.nombre}</h1>
 
-                        <p>
-                            <strong>
-                                Correo electrónico: {tienda.email}
-                            </strong>
-                        </p>
+                        <div className="info">
 
-                        <p>
-                            <strong>
-                                Teléfono: {tienda.telefono}
-                            </strong>
-                        </p>
+                            <p>
+                                📧 <strong>{tienda.email}</strong>
+                            </p>
 
-                        <p>
-                            <strong>
-                                Dirección: {tienda.direccion}
-                            </strong>
-                        </p>
+                            <p>
+                                📞 <strong>{tienda.telefono}</strong>
+                            </p>
+
+                            <p>
+                                📍 <strong>{tienda.direccion}</strong>
+                            </p>
+
+                        </div>
+
                     </div>
 
                 </div>
 
-                <h2>Productos</h2>
+                <div className="titulo-productos">
+
+                    <h2>Nuestro menú</h2>
+
+                    <span>
+                        {tienda.productos?.length} productos disponibles
+                    </span>
+
+                </div>
 
                 <div className="productos-grid">
 
                     {tienda.productos?.map((producto) => (
+
                         <div
-                            className="productos"
                             key={producto.id}
+                            className="productos"
                         >
+
                             <img
                                 src={producto.imagen}
                                 alt={producto.nombre}
                                 className="producto-img"
                             />
 
-                            <h3>{producto.nombre}</h3>
+                            <div className="producto-info">
 
-                            <p>${producto.precio}</p>
+                                <h3>{producto.nombre}</h3>
 
-                            <button
-                                className="btn-carrito"
-                                onClick={() => agregarAlCarrito(producto.id)}
-                            >
-                                Agregar al carrito 🛒
-                            </button>
+                                <p className="descripcion">
+                                    {producto.descripcion}
+                                </p>
+
+                                <div className="footer-producto">
+
+                                    <span className="precio">
+                                        ${producto.precio}
+                                    </span>
+
+                                    <button
+                                        className="btn-carrito"
+                                        onClick={() =>
+                                            agregarAlCarrito(producto.id)
+                                        }
+                                    >
+                                        🛒 Agregar
+                                    </button>
+
+                                </div>
+
+                            </div>
+
                         </div>
+
                     ))}
 
                 </div>
 
             </div>
+
         </>
     );
 }
